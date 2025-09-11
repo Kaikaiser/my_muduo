@@ -48,7 +48,12 @@
         "xlocmes": "cpp",
         "xlocmon": "cpp",
         "xlocnum": "cpp",
-        "xloctime": "cpp"
+        "xloctime": "cpp",
+        "functional": "cpp",
+        "list": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "xhash": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }

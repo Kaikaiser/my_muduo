@@ -1,5 +1,6 @@
 #include "Channel.h"
 #include<sys/epoll.h>
+#include "EventLoop.h"
 const int Channel::kNoneEvent = 0;
 const int Channel::kReadEvent = EPOLLIN | EPOLLPRI;
 const int Channel::kWriteEvent = EPOLLOUT;
@@ -19,6 +20,7 @@ Channel::~Channel()
 {
 }
 
+// channel的tie方法是什么时候调用
 void Channel::tie(const std::shared_ptr<void> &obj)
 {
     tie_ = obj;
@@ -28,9 +30,74 @@ void Channel::tie(const std::shared_ptr<void> &obj)
 /*
 * 当改变Channel 表示的fd 的感兴趣events事件后，update负责在Poller 里面
 * 更改fd 相应事件epoll_ctl
+* channel和poller是独立的 通过他们所属的EventLoop进行通信
 */ 
 void Channel::update()
 {
+    // 通过channel所属EventLoop 调用poller相应的方法 注册fd的events事件
+    // add code
+    // loop_->updateChannel(this);
+}
+
+// 在Channel所属的EventLoop中，把当前Channel删除
+void Channel::remove()
+{
+     // add code
+     // loop_->removeChannel(this); this是传入自己channel
+}
+// fd得到poller通知后，处理相应事件的函数
+void Channel::handleEvent(TimeStamp receiveTime)
+{
+    // 如果channel中的tie_有绑定对象
+    if(tied_)
+    {
+        // 这里的lock用于提升为强智能指针 返回不为空即为提升成功 否则返回nullptr
+        std::shared_ptr<void> guard = tie_.lock(); 
+        if(guard)
+        {
+            handleEventWithGuard(receiveTime);
+        }
+    }
+    else
+    {
+        handleEventWithGuard(receiveTime);
+    }
+}
+
+// 根据poller通知的channel的具体事件，channel调用具体事件的回调函数
+void Channel::handleEventWithGuard(TimeStamp receiveTime)
+{
+    // 出问题 发生异常
+    if((revents_ & EPOLLHUP) && !(revents_ & EPOLLIN))
+    {
+        if(closeCallback_)
+        {
+            closeCallback_();
+        }
+    }
+
+    if(revents_ & EPOLLERR)
+    {
+        if(errorCallback_)
+        {
+            errorCallback_();
+        }
+    }
+
+    if(revents_ & (EPOLLIN | EPOLLPRI))
+    {
+        if(readCallback_)
+        {
+            readCallback_(receiveTime);
+        }
+    }
+
+    if(revents_ & EPOLLOUT)
+    {
+        if(writeCallback_)
+        {
+            writeCallback_();
+        }
+    }
 
 }
-void handleEvent(TimeStamp receiveTime);

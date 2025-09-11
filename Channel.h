@@ -71,7 +71,10 @@ private:
     int events_;      // 注册fd的感兴趣的事件
     int revents_;     // poller返回的具体事件
     int index_;       //
-    std::weak_ptr<void> tie_;
+
+    // 使用weak_ptr避免循环引用 只是用做观察（观察对象是否存活） 后面使用shared_ptr来进行对对象的使用
+    // weak_ptr不能* 或 -> 访问对象 先通过.lock()升级为shared_ptr进行使用
+    std::weak_ptr<void> tie_; 
     bool tied_;
 
     // 因为channel通道中可以获得fd最终发生的事件revents，所以他负责调用相应的回调函数操作
