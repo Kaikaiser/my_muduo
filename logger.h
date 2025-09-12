@@ -10,7 +10,7 @@
         Logger &logger = Logger::instance();\
         logger.setLogerLevel(INFO); \
         char buf[1024] = {0}; \
-        snprintf(buf, 1024, logmsgFormat, ##__VA_ARSS__); \
+        snprintf(buf, 1024, logmsgFormat, ##__VA_ARGS__); \
         logger.log(buf); \
     } while(0)
 
@@ -20,7 +20,7 @@
         Logger &logger = Logger::instance();\
         logger.setLogerLevel(ERROR); \
         char buf[1024] = {0}; \
-        snprintf(buf, 1024, logmsgFormat, ##__VA_ARSS__); \
+        snprintf(buf, 1024, logmsgFormat, ##__VA_ARGS__); \
         logger.log(buf); \
     } while(0)
 
@@ -30,8 +30,9 @@
         Logger &logger = Logger::instance();\
         logger.setLogerLevel(FATAL); \
         char buf[1024] = {0}; \
-        snprintf(buf, 1024, logmsgFormat, ##__VA_ARSS__); \
+        snprintf(buf, 1024, logmsgFormat, ##__VA_ARGS__); \
         logger.log(buf); \
+        exit(-1); \
     } while(0)
 
 // 不使用时 不定义LOG_DEBUG 耗费资源 增加负担
@@ -42,7 +43,7 @@
         Logger &logger = Logger::instance();\
         logger.setLogerLevel(DEBUG); \
         char buf[1024] = {0}; \
-        snprintf(buf, 1024, logmsgFormat, ##__VA_ARSS__); \
+        snprintf(buf, 1024, logmsgFormat, ##__VA_ARGS__); \
         logger.log(buf); \
     } while(0)
 #else

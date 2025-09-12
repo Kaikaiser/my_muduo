@@ -1,6 +1,7 @@
 #include "Channel.h"
 #include<sys/epoll.h>
 #include "EventLoop.h"
+#include "logger.h"
 const int Channel::kNoneEvent = 0;
 const int Channel::kReadEvent = EPOLLIN | EPOLLPRI;
 const int Channel::kWriteEvent = EPOLLOUT;
@@ -64,9 +65,11 @@ void Channel::handleEvent(TimeStamp receiveTime)
     }
 }
 
-// 根据poller通知的channel的具体事件，channel调用具体事件的回调函数
+// 根据poller通知的channel的具体事件，channel调用具体事件的回调函数 log日志还可以加 _FUNCTION_  _LINE_
 void Channel::handleEventWithGuard(TimeStamp receiveTime)
 {
+    LOG_INFO("channel handleEvent revents:%d\n", revents_);
+
     // 出问题 发生异常
     if((revents_ & EPOLLHUP) && !(revents_ & EPOLLIN))
     {
