@@ -28,7 +28,7 @@ std::string InetAddress::toIpPort() const
     // ip:port组合
     char buf[64] = {0};
     ::inet_ntop(AF_INET, &addr_.sin_addr, buf, sizeof(buf));
-    // 用strlen获取字符串长度 到'\0'为止的长度 统计实际字符数
+    // 用strlen获取字符数组长度 到'\0'为止的长度 统计实际字符数
     size_t end = strlen(buf);
     uinet16_t port = ntohs(addr_.sin_port);
     // buf + end 指向结尾的 \0 位置。从这里写，相当于“在末尾继续写” 就是插入
