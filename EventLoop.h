@@ -2,7 +2,7 @@
 
 #include "noncopyable.h"
 #include "TimeStamp.h"
-#include "CurrentThraed.h"
+#include "CurrentThread.h"
 
 #include <functional>
 #include <string>
