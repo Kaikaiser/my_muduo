@@ -59,6 +59,51 @@ EventLoop::~EventLoop()
 }
 
 
+// 开启事件循环
+void EventLoop::loop()
+{
+    looping_ = true;
+    quit_ = false;
+
+    LOG_INFO("EventLoop %p start looping \n", this);
+    while(!quit_)
+    {
+        activeChannels.clear();
+        // 主要用于监听两类的fd  一类是 client 的fd  一类是 wakeupfd
+        pollReturnTime_ = poller_->poll(kPollTimes, &activeChannels_);
+
+        for( Channel *channel : activeChannels_)
+        {
+            // Poller显示监听了哪些channel发生事件了，然后上报给EventLoop，通知channel处理相应的事件
+            channel->handlieEvent(pollReturnTime_);
+        }
+        //执行当前EventLoop事件循环所进行的回调操作
+        /*
+        Io线程 mainloop 执行的是accept fd《=channel subloop 
+        mainloop 提前注册一个回调cb（需要subloop来执行） wakeup subloop之后，要执行下面的方法，执行之前mainloop注册的回调cb
+        */
+        doPendingFunctors();
+    }
+    LOG_INFO("EventLoop %p stop looping \n", this);
+    looping_ = false;
+
+}
+
+// 退出事件循环  
+void Eventloop::quit()
+{
+    //1.loop在自己的线程中调用quit 
+    quit_ = true;
+    
+    //2.在非loop自己的线程中，调用loop的quit  ==》one loop for one thread
+    // 如果在其他线程中调用的是quit，  在一个subloop（工作线程）调用的是mainloop（IO线程）的quit
+    if(!isInLoopThread())
+    {
+        wakeup();
+    }
+
+}
+
 
 void EventLoop::handleRead()
 {
