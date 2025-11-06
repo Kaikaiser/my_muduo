@@ -32,10 +32,10 @@ public:
     TimeStamp pollReturnTime() const {return pollReturnTime_;}
 
     // 在当前loop中执行
-    void runInloop(Functor cb);
+    void runInLoop(Functor cb);
 
     // 把cb放入队列中，唤醒loop所在的线程，执行cb
-    void queueInloop(Functor cb);
+    void queueInLoop(Functor cb);
 
     // 唤醒loop所在线程
     void wakeup();
