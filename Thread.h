@@ -5,15 +5,15 @@
 #include <unistd.h>
 #include <thread>
 #include <atomic>
+#include <string>
 
 
 class Thread : noncopyable
 {
 public:
     using ThreadFunc = std::function<void()>; 
-    explicit Thread(ThreadFunc, const std::string &name_ = string());
+    explicit Thread(ThreadFunc, const std::string &name = std::string());
     ~Thread();
-
     void start();
     void join();
     bool started() const {return started_;}

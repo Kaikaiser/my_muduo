@@ -43,7 +43,7 @@ public:
     // EventLoop中的方法 => Poller中的方法
     void updateChannel(Channel *channel);
     void removeChannel(Channel *channel);
-    void hasChannel(Channel *channel);
+    bool hasChannel(Channel *channel);
     
     // 判断EventLoop的对象是否在当前线程里面
     bool isInLoopThread() const {return threadId_ == CurrentThraedId::tid();}
