@@ -1,6 +1,6 @@
 # 要求最低cmake版本
 cmake_minimum_required(VERSION 2.5) 
-project(mymuduo)
+project(muduo_mine)
 
 # mymuduo最终编译成so动态库，设置动态库的路径，放在根目录的lib目录下
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
