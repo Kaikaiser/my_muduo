@@ -10,7 +10,7 @@ TimeStamp::TimeStamp(int64_t microSecondsSinceEpoch)
 
 TimeStamp TimeStamp::now()
 {
-    time_t t1 = time(NULL)
+    time_t t1 = time(NULL);
     return TimeStamp(t1);
 }   
 // 只读方法 不允许修改值 将now获取的时间转化为字符串
