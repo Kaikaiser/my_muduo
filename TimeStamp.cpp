@@ -14,7 +14,7 @@ TimeStamp TimeStamp::now()
     return TimeStamp(t1);
 }   
 // 只读方法 不允许修改值 将now获取的时间转化为字符串
-std::string toString() const
+std::string TimeStamp::toString() const
 {
     char buf[128] = {0};
     tm *tm_time = localtime(&microSecondsSinceEpoch_);
