@@ -11,8 +11,20 @@ class EventLoop;
 class EventLoopThreadPool : noncopyable
 {
 public:
-    using ThreadInitFunc = std::function<void(EventLoop*)>;
+    using ThreadInitCallback = std::function<void(EventLoop*)>;
+    EventLoopThreadPool(EventLoop *baseLoop, const std::string &nameArg);
+    ~EventLoopThreadPool();
 
+    void setThreadNum(int numThreads) {numThreads_ = numThreads;}
+    void start(const ThreadInitCallback &cb = ThreadInitCallback());
+
+    // 如果在工作在多线程中，baseloop_默认轮询的方式分配channe给subloop
+    EventLoop* getNextLoop();
+
+    std::vector<EventLoop*> getAllLoops();
+
+    bool started() const { return started_;}
+    const std::string name() const {return name_;}
 private:
     EventLoop *baseLoop_;
     std::string name_;  // EventLoop loop;
