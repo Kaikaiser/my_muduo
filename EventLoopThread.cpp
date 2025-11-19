@@ -3,8 +3,8 @@
 #include <memory>
 
 
-EventLoopThread::EventLoopThread(const ThreadInitCallback &cb = ThreadInitCallback(), 
-                const std::string &name = std::string())
+EventLoopThread::EventLoopThread(const ThreadInitCallback &cb, 
+                const std::string &name)
                 : loop_(nullptr)
                 , exiting_(false)
                 , thread_(std::bind(&EventLoopThread::ThreadFunc, this), name)

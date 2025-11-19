@@ -2,7 +2,8 @@
 #include "CurrentThread.h"
 #include <semaphore.h>
 
-static std::atomic_int32_t Thread::numCreated_ = 0;
+// 这里是使用atomic的拷贝构造 不能直接赋值
+static std::atomic_int32_t Thread::numCreated_(0);
 // 参数默认值只出现一个地方即可
 Thread::Thread(ThreadFunc func , const std::string &name)
     : started_(false)
