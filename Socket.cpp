@@ -1,0 +1,69 @@
+#include "Socket.h"
+#include "Logger.h"
+#include "InetAddress.h"
+#include <unistd.h>
+#include <string>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+Socket::~Socket()
+{
+    close(sockfd_);
+}
+
+
+void Socket::bindAddress(const InetAddress &localaddr)
+{
+    if(0 != ::bind(sockfd_, (sockaddr*)localaddr.getSockAddr(), sizeof(sockaddr_in)))
+    {
+        LOG_FATAL("bind sockfd: %d failed \n", sockfd_);
+    }
+}
+
+void Socket::listen()
+{
+    if(0 != ::listen(sockfd_, 1024))
+    {
+        LOG_FATAL("listen sockfd: %d failed \n", sockfd_);
+    }
+}
+
+int Socket::accept(InetAddress &peeraddr)
+{
+    sockaddr_in addr;
+    socklen_t len;
+    meset(&addr, 0, sizeof(addr));
+    int connfd = ::accept(sockfd_, (sockAddr*)&addr, &len);
+    if(connfd >= 0)
+    {
+        peeraddr->setSockAddr(addr);
+    }
+    return connfd;
+}
+
+void Socket::shutdownWrite()
+{
+    if(::shutdown(sockfd_, SHUT_WR))
+    {
+        LOG_ERROR("shutdownWrite error!");
+    }
+}
+
+void Socket::setTcpNoDelay(bool on)
+{
+    int optval = on ? 1 : 0;
+    ::setsockopt(sockfd_, IPPROTO_TCP, TCP_NODELAY, &optval, sizeof(optval)); 
+}
+
+void Socket::setReuseAddr(bool on)
+{
+    int optval = on ? 1 : 0;
+    ::setsockopt(sockfd_, SQL_SOCKET, TCP_NODELAY, &optval, sizeof(optval)); 
+}
+
+void Socket::setKeepAlive(bool on)
+{
+    int optval = on ? 1 : 0;
+    ::setsockopt(sockfd_, SQL_SOCKET, TCP_NODELAY, &optval, sizeof(optval)); 
+}
