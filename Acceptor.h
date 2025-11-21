@@ -10,7 +10,7 @@ class InetAddress;
 class Acceptor : noncopyable
 {
 public:
-    using NewConnectionCallback = std::function<void(int sockfd, const InetAddress&)>
+    using NewConnectionCallback = std::function<void(int sockfd, const InetAddress&)>;
     Acceptor(EventLoop *loop, const InetAddress &listenAddr, bool reuseport);
     ~Acceptor();
 
@@ -28,4 +28,4 @@ private:
     Channel acceptChannel_;
     NewConnectionCallback newConnectionCallback_;
     bool listening_;
-}
+};
