@@ -10,7 +10,7 @@ EventLoopThread::EventLoopThread(const ThreadInitCallback &cb,
                 , thread_(std::bind(&EventLoopThread::ThreadFunc, this), name)
                 , mutex_()
                 , cond_()
-                , callback(cb)
+                , callback_(cb)
 {
 }
 
@@ -59,5 +59,4 @@ void EventLoopThread::ThreadFunc()
     loop.loop(); // EventLoop loop =》 Poller.poll
     std::unique_lock<std::mutex> lock(mutex_);
     loop_ = nullptr;
-
 }

@@ -128,6 +128,30 @@ mymuduo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/build
 .PHONY : mymuduo/fast
 
+Acceptor.obj: Acceptor.cpp.obj
+.PHONY : Acceptor.obj
+
+# target to build an object file
+Acceptor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Acceptor.cpp.obj
+.PHONY : Acceptor.cpp.obj
+
+Acceptor.i: Acceptor.cpp.i
+.PHONY : Acceptor.i
+
+# target to preprocess a source file
+Acceptor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Acceptor.cpp.i
+.PHONY : Acceptor.cpp.i
+
+Acceptor.s: Acceptor.cpp.s
+.PHONY : Acceptor.s
+
+# target to generate assembly for a file
+Acceptor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Acceptor.cpp.s
+.PHONY : Acceptor.cpp.s
+
 Channel.obj: Channel.cpp.obj
 .PHONY : Channel.obj
 
@@ -473,6 +497,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... mymuduo
+	@echo ... Acceptor.obj
+	@echo ... Acceptor.i
+	@echo ... Acceptor.s
 	@echo ... Channel.obj
 	@echo ... Channel.i
 	@echo ... Channel.s

@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "../lib/libmymuduo.dll.a"
   "../lib/libmymuduo.dll.manifest"
   "../lib/libmymuduo.pdb"
+  "CMakeFiles/mymuduo.dir/Acceptor.cpp.obj"
+  "CMakeFiles/mymuduo.dir/Acceptor.cpp.obj.d"
   "CMakeFiles/mymuduo.dir/Channel.cpp.obj"
   "CMakeFiles/mymuduo.dir/Channel.cpp.obj.d"
   "CMakeFiles/mymuduo.dir/CurrentThread.cpp.obj"

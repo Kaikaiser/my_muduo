@@ -32,8 +32,8 @@ EventLoop::EventLoop()
     , callingPendingFunctors_(false)
     , threadId_(CurrentThread::tid())
     , poller_(Poller::newDefaultPoller(this))
-    , wakeupfd_(createEventfd()) // main => sub
-    , wakeupChannel(this, wakeupFd_)
+    , wakeupFd_(createEventfd()) // main => sub
+    , wakeupChannel_(new Channel(this, wakeupFd_))
     , currentActiveChannel_(nullptr)
 {
     LOG_DEBUG("EventLoop create %p in thread %d \n", this, threadId_);

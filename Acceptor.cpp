@@ -1,14 +1,16 @@
 #include "Acceptor.h"
 #include "Logger.h"
 #include "EventLoop.h"
+#include "InetAddress.h"
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <cerror>
 #include <unistd.h>
 
+
 static int createNonblocking()
 {
-    int sockfd = ::socket(AF_INET, SOCK_STREAM | SOCK_NONBLOCK | SOCK_CLOEXEC, IPPROTO_TCP);
+    int sockfd = ::socket(AF_INET, SOCK_STREAM | SOCK_NONBLOCK | SOCK_CLOEXEC, 0);
     if(sockfd < 0)
     {
         LOG_FATAL("%s: %s: %d: listen socket create error:%d\n", __FILE__, __func__, __LINE__, errno);

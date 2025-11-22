@@ -1,6 +1,11 @@
 [
 {
   "directory": "E:/daima/c++/network_pragram/my_muduo/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmymuduo_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\mymuduo.dir\\Acceptor.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\Acceptor.cpp",
+  "file": "E:/daima/c++/network_pragram/my_muduo/Acceptor.cpp"
+},
+{
+  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
   "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmymuduo_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\mymuduo.dir\\Channel.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\Channel.cpp",
   "file": "E:/daima/c++/network_pragram/my_muduo/Channel.cpp"
 },
