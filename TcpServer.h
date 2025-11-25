@@ -40,14 +40,14 @@ public:
     void start();
 
 private:
-    void newConnetion(int sockfd, const InetAddress &peerAddr);
+    void newConnection(int sockfd, const InetAddress &peerAddr);
     void removeConnection(const TcpConnectionPtr &conn);
     void removeConnectionInLoop(const TcpConnectionPtr &conn);
     // 哈希表 比map的效率高得多 
     using ConnectionMap = std::unordered_map<std::string, TcpConnectionPtr>;
     EventLoop *loop_; //baseLoop 用户定义的loop
     const std::string inPort_;
-    const std::string name _;
+    const std::string name_;
     std::unique_ptr<Acceptor> acceptor_; // 运行在mainLoop 主要是监听新用户连接事件
     std::shared_ptr<EventLoopThreadPool> threadPool_;  // one loop per thread
     ConnectionCallback connectionCallback_;  // 有新连接时的回调
