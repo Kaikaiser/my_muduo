@@ -6,6 +6,11 @@
 },
 {
   "directory": "E:/daima/c++/network_pragram/my_muduo/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmymuduo_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\mymuduo.dir\\Buffer.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\Buffer.cpp",
+  "file": "E:/daima/c++/network_pragram/my_muduo/Buffer.cpp"
+},
+{
+  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
   "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmymuduo_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\mymuduo.dir\\Channel.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\Channel.cpp",
   "file": "E:/daima/c++/network_pragram/my_muduo/Channel.cpp"
 },
@@ -53,6 +58,11 @@
   "directory": "E:/daima/c++/network_pragram/my_muduo/build",
   "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmymuduo_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\mymuduo.dir\\Socket.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\Socket.cpp",
   "file": "E:/daima/c++/network_pragram/my_muduo/Socket.cpp"
+},
+{
+  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmymuduo_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\mymuduo.dir\\TcpConnection.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\TcpConnection.cpp",
+  "file": "E:/daima/c++/network_pragram/my_muduo/TcpConnection.cpp"
 },
 {
   "directory": "E:/daima/c++/network_pragram/my_muduo/build",

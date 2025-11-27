@@ -152,6 +152,30 @@ Acceptor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Acceptor.cpp.s
 .PHONY : Acceptor.cpp.s
 
+Buffer.obj: Buffer.cpp.obj
+.PHONY : Buffer.obj
+
+# target to build an object file
+Buffer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Buffer.cpp.obj
+.PHONY : Buffer.cpp.obj
+
+Buffer.i: Buffer.cpp.i
+.PHONY : Buffer.i
+
+# target to preprocess a source file
+Buffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Buffer.cpp.i
+.PHONY : Buffer.cpp.i
+
+Buffer.s: Buffer.cpp.s
+.PHONY : Buffer.s
+
+# target to generate assembly for a file
+Buffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Buffer.cpp.s
+.PHONY : Buffer.cpp.s
+
 Channel.obj: Channel.cpp.obj
 .PHONY : Channel.obj
 
@@ -392,6 +416,30 @@ Socket.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Socket.cpp.s
 .PHONY : Socket.cpp.s
 
+TcpConnection.obj: TcpConnection.cpp.obj
+.PHONY : TcpConnection.obj
+
+# target to build an object file
+TcpConnection.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/TcpConnection.cpp.obj
+.PHONY : TcpConnection.cpp.obj
+
+TcpConnection.i: TcpConnection.cpp.i
+.PHONY : TcpConnection.i
+
+# target to preprocess a source file
+TcpConnection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/TcpConnection.cpp.i
+.PHONY : TcpConnection.cpp.i
+
+TcpConnection.s: TcpConnection.cpp.s
+.PHONY : TcpConnection.s
+
+# target to generate assembly for a file
+TcpConnection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/TcpConnection.cpp.s
+.PHONY : TcpConnection.cpp.s
+
 TcpServer.obj: TcpServer.cpp.obj
 .PHONY : TcpServer.obj
 
@@ -500,6 +548,9 @@ help:
 	@echo ... Acceptor.obj
 	@echo ... Acceptor.i
 	@echo ... Acceptor.s
+	@echo ... Buffer.obj
+	@echo ... Buffer.i
+	@echo ... Buffer.s
 	@echo ... Channel.obj
 	@echo ... Channel.i
 	@echo ... Channel.s
@@ -530,6 +581,9 @@ help:
 	@echo ... Socket.obj
 	@echo ... Socket.i
 	@echo ... Socket.s
+	@echo ... TcpConnection.obj
+	@echo ... TcpConnection.i
+	@echo ... TcpConnection.s
 	@echo ... TcpServer.obj
 	@echo ... TcpServer.i
 	@echo ... TcpServer.s

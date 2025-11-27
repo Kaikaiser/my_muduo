@@ -13,7 +13,7 @@ EventLoop* CheckLoopNotNull(EventLoop *loop)
 }
 
 
-TcpServer::TcpServer(EventLoop *loop, const InetAddress &listenAddr, const std::string &nameArg, Option option = kNOReusePort)
+TcpServer::TcpServer(EventLoop *loop, const InetAddress &listenAddr, const std::string &nameArg, Option option)
         : loop_(CheckLoopNotNull(loop))
         , inPort_(listenAddr.toIpPort())
         , name_(nameArg)
