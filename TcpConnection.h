@@ -5,7 +5,7 @@
 class TcpConnection : noncopyable
 {
 public:
-
+    
 private:
 
 };
