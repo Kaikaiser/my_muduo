@@ -2,6 +2,7 @@
 cmake_minimum_required(VERSION 3.10) 
 project(muduo_mine)
 
+# cmake -> makefile -> make
 # mymuduo最终编译成so动态库，设置动态库的路径，放在根目录的lib目录下
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 

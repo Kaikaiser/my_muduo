@@ -13,7 +13,7 @@ EventLoop* CheckLoopNotNull(EventLoop *loop)
 }
 
 
-TcpServer::TcpServer(EventLoop *loop, const InetAddress &listenAddr, const std::string &nameArg, Option option = kNOReusePort)
+TcpServer::TcpServer(EventLoop *loop, const InetAddress &listenAddr, const std::string &nameArg, Option option)
         : loop_(CheckLoopNotNull(loop))
         , inPort_(listenAddr.toIpPort())
         , name_(nameArg)
@@ -27,6 +27,7 @@ TcpServer::TcpServer(EventLoop *loop, const InetAddress &listenAddr, const std::
     acceptor_->setNewConnectionCallback(std::bind(&TcpServer::newConnection, this, std::placeholders::_1, std::placeholders::_2));
     
 }
+
 
 TcpServer::~TcpServer()
 {
@@ -50,4 +51,7 @@ void TcpServer::start()
     }
 }
 
-void newConnection(int sockfd, const InetAddress &peerAddr);
+void TcpServer::newConnection(int sockfd, const InetAddress &peerAddr)
+{
+
+}
