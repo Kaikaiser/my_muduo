@@ -82,10 +82,24 @@ CMakeFiles/mymuduo.dir/Acceptor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/Acceptor.cpp.s"
 	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\daima\c++\network_pragram\my_muduo\Acceptor.cpp -o CMakeFiles\mymuduo.dir\Acceptor.cpp.s
 
+CMakeFiles/mymuduo.dir/Buffer.cpp.obj: CMakeFiles/mymuduo.dir/flags.make
+CMakeFiles/mymuduo.dir/Buffer.cpp.obj: ../Buffer.cpp
+CMakeFiles/mymuduo.dir/Buffer.cpp.obj: CMakeFiles/mymuduo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mymuduo.dir/Buffer.cpp.obj"
+	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mymuduo.dir/Buffer.cpp.obj -MF CMakeFiles\mymuduo.dir\Buffer.cpp.obj.d -o CMakeFiles\mymuduo.dir\Buffer.cpp.obj -c E:\daima\c++\network_pragram\my_muduo\Buffer.cpp
+
+CMakeFiles/mymuduo.dir/Buffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymuduo.dir/Buffer.cpp.i"
+	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\daima\c++\network_pragram\my_muduo\Buffer.cpp > CMakeFiles\mymuduo.dir\Buffer.cpp.i
+
+CMakeFiles/mymuduo.dir/Buffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/Buffer.cpp.s"
+	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\daima\c++\network_pragram\my_muduo\Buffer.cpp -o CMakeFiles\mymuduo.dir\Buffer.cpp.s
+
 CMakeFiles/mymuduo.dir/Channel.cpp.obj: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/Channel.cpp.obj: ../Channel.cpp
 CMakeFiles/mymuduo.dir/Channel.cpp.obj: CMakeFiles/mymuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mymuduo.dir/Channel.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mymuduo.dir/Channel.cpp.obj"
 	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mymuduo.dir/Channel.cpp.obj -MF CMakeFiles\mymuduo.dir\Channel.cpp.obj.d -o CMakeFiles\mymuduo.dir\Channel.cpp.obj -c E:\daima\c++\network_pragram\my_muduo\Channel.cpp
 
 CMakeFiles/mymuduo.dir/Channel.cpp.i: cmake_force
@@ -99,7 +113,7 @@ CMakeFiles/mymuduo.dir/Channel.cpp.s: cmake_force
 CMakeFiles/mymuduo.dir/CurrentThread.cpp.obj: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/CurrentThread.cpp.obj: ../CurrentThread.cpp
 CMakeFiles/mymuduo.dir/CurrentThread.cpp.obj: CMakeFiles/mymuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mymuduo.dir/CurrentThread.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mymuduo.dir/CurrentThread.cpp.obj"
 	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mymuduo.dir/CurrentThread.cpp.obj -MF CMakeFiles\mymuduo.dir\CurrentThread.cpp.obj.d -o CMakeFiles\mymuduo.dir\CurrentThread.cpp.obj -c E:\daima\c++\network_pragram\my_muduo\CurrentThread.cpp
 
 CMakeFiles/mymuduo.dir/CurrentThread.cpp.i: cmake_force
@@ -113,7 +127,7 @@ CMakeFiles/mymuduo.dir/CurrentThread.cpp.s: cmake_force
 CMakeFiles/mymuduo.dir/DefaultPoller.cpp.obj: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/DefaultPoller.cpp.obj: ../DefaultPoller.cpp
 CMakeFiles/mymuduo.dir/DefaultPoller.cpp.obj: CMakeFiles/mymuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mymuduo.dir/DefaultPoller.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mymuduo.dir/DefaultPoller.cpp.obj"
 	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mymuduo.dir/DefaultPoller.cpp.obj -MF CMakeFiles\mymuduo.dir\DefaultPoller.cpp.obj.d -o CMakeFiles\mymuduo.dir\DefaultPoller.cpp.obj -c E:\daima\c++\network_pragram\my_muduo\DefaultPoller.cpp
 
 CMakeFiles/mymuduo.dir/DefaultPoller.cpp.i: cmake_force
@@ -127,7 +141,7 @@ CMakeFiles/mymuduo.dir/DefaultPoller.cpp.s: cmake_force
 CMakeFiles/mymuduo.dir/EPollPoller.cpp.obj: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/EPollPoller.cpp.obj: ../EPollPoller.cpp
 CMakeFiles/mymuduo.dir/EPollPoller.cpp.obj: CMakeFiles/mymuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mymuduo.dir/EPollPoller.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mymuduo.dir/EPollPoller.cpp.obj"
 	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mymuduo.dir/EPollPoller.cpp.obj -MF CMakeFiles\mymuduo.dir\EPollPoller.cpp.obj.d -o CMakeFiles\mymuduo.dir\EPollPoller.cpp.obj -c E:\daima\c++\network_pragram\my_muduo\EPollPoller.cpp
 
 CMakeFiles/mymuduo.dir/EPollPoller.cpp.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/mymuduo.dir/EPollPoller.cpp.s: cmake_force
 CMakeFiles/mymuduo.dir/EventLoop.cpp.obj: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/EventLoop.cpp.obj: ../EventLoop.cpp
 CMakeFiles/mymuduo.dir/EventLoop.cpp.obj: CMakeFiles/mymuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mymuduo.dir/EventLoop.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mymuduo.dir/EventLoop.cpp.obj"
 	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mymuduo.dir/EventLoop.cpp.obj -MF CMakeFiles\mymuduo.dir\EventLoop.cpp.obj.d -o CMakeFiles\mymuduo.dir\EventLoop.cpp.obj -c E:\daima\c++\network_pragram\my_muduo\EventLoop.cpp
 
 CMakeFiles/mymuduo.dir/EventLoop.cpp.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/mymuduo.dir/EventLoop.cpp.s: cmake_force
 CMakeFiles/mymuduo.dir/EventLoopThread.cpp.obj: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/EventLoopThread.cpp.obj: ../EventLoopThread.cpp
 CMakeFiles/mymuduo.dir/EventLoopThread.cpp.obj: CMakeFiles/mymuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mymuduo.dir/EventLoopThread.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mymuduo.dir/EventLoopThread.cpp.obj"
 	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mymuduo.dir/EventLoopThread.cpp.obj -MF CMakeFiles\mymuduo.dir\EventLoopThread.cpp.obj.d -o CMakeFiles\mymuduo.dir\EventLoopThread.cpp.obj -c E:\daima\c++\network_pragram\my_muduo\EventLoopThread.cpp
 
 CMakeFiles/mymuduo.dir/EventLoopThread.cpp.i: cmake_force
@@ -169,7 +183,7 @@ CMakeFiles/mymuduo.dir/EventLoopThread.cpp.s: cmake_force
 CMakeFiles/mymuduo.dir/EventLoopThreadPool.cpp.obj: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/EventLoopThreadPool.cpp.obj: ../EventLoopThreadPool.cpp
 CMakeFiles/mymuduo.dir/EventLoopThreadPool.cpp.obj: CMakeFiles/mymuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mymuduo.dir/EventLoopThreadPool.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mymuduo.dir/EventLoopThreadPool.cpp.obj"
 	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mymuduo.dir/EventLoopThreadPool.cpp.obj -MF CMakeFiles\mymuduo.dir\EventLoopThreadPool.cpp.obj.d -o CMakeFiles\mymuduo.dir\EventLoopThreadPool.cpp.obj -c E:\daima\c++\network_pragram\my_muduo\EventLoopThreadPool.cpp
 
 CMakeFiles/mymuduo.dir/EventLoopThreadPool.cpp.i: cmake_force
@@ -183,7 +197,7 @@ CMakeFiles/mymuduo.dir/EventLoopThreadPool.cpp.s: cmake_force
 CMakeFiles/mymuduo.dir/InetAddress.cpp.obj: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/InetAddress.cpp.obj: ../InetAddress.cpp
 CMakeFiles/mymuduo.dir/InetAddress.cpp.obj: CMakeFiles/mymuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mymuduo.dir/InetAddress.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mymuduo.dir/InetAddress.cpp.obj"
 	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mymuduo.dir/InetAddress.cpp.obj -MF CMakeFiles\mymuduo.dir\InetAddress.cpp.obj.d -o CMakeFiles\mymuduo.dir\InetAddress.cpp.obj -c E:\daima\c++\network_pragram\my_muduo\InetAddress.cpp
 
 CMakeFiles/mymuduo.dir/InetAddress.cpp.i: cmake_force
@@ -197,7 +211,7 @@ CMakeFiles/mymuduo.dir/InetAddress.cpp.s: cmake_force
 CMakeFiles/mymuduo.dir/Poller.cpp.obj: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/Poller.cpp.obj: ../Poller.cpp
 CMakeFiles/mymuduo.dir/Poller.cpp.obj: CMakeFiles/mymuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mymuduo.dir/Poller.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/mymuduo.dir/Poller.cpp.obj"
 	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mymuduo.dir/Poller.cpp.obj -MF CMakeFiles\mymuduo.dir\Poller.cpp.obj.d -o CMakeFiles\mymuduo.dir\Poller.cpp.obj -c E:\daima\c++\network_pragram\my_muduo\Poller.cpp
 
 CMakeFiles/mymuduo.dir/Poller.cpp.i: cmake_force
@@ -211,7 +225,7 @@ CMakeFiles/mymuduo.dir/Poller.cpp.s: cmake_force
 CMakeFiles/mymuduo.dir/Socket.cpp.obj: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/Socket.cpp.obj: ../Socket.cpp
 CMakeFiles/mymuduo.dir/Socket.cpp.obj: CMakeFiles/mymuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/mymuduo.dir/Socket.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/mymuduo.dir/Socket.cpp.obj"
 	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mymuduo.dir/Socket.cpp.obj -MF CMakeFiles\mymuduo.dir\Socket.cpp.obj.d -o CMakeFiles\mymuduo.dir\Socket.cpp.obj -c E:\daima\c++\network_pragram\my_muduo\Socket.cpp
 
 CMakeFiles/mymuduo.dir/Socket.cpp.i: cmake_force
@@ -222,10 +236,24 @@ CMakeFiles/mymuduo.dir/Socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/Socket.cpp.s"
 	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\daima\c++\network_pragram\my_muduo\Socket.cpp -o CMakeFiles\mymuduo.dir\Socket.cpp.s
 
+CMakeFiles/mymuduo.dir/TcpConnection.cpp.obj: CMakeFiles/mymuduo.dir/flags.make
+CMakeFiles/mymuduo.dir/TcpConnection.cpp.obj: ../TcpConnection.cpp
+CMakeFiles/mymuduo.dir/TcpConnection.cpp.obj: CMakeFiles/mymuduo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/mymuduo.dir/TcpConnection.cpp.obj"
+	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mymuduo.dir/TcpConnection.cpp.obj -MF CMakeFiles\mymuduo.dir\TcpConnection.cpp.obj.d -o CMakeFiles\mymuduo.dir\TcpConnection.cpp.obj -c E:\daima\c++\network_pragram\my_muduo\TcpConnection.cpp
+
+CMakeFiles/mymuduo.dir/TcpConnection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymuduo.dir/TcpConnection.cpp.i"
+	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\daima\c++\network_pragram\my_muduo\TcpConnection.cpp > CMakeFiles\mymuduo.dir\TcpConnection.cpp.i
+
+CMakeFiles/mymuduo.dir/TcpConnection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/TcpConnection.cpp.s"
+	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\daima\c++\network_pragram\my_muduo\TcpConnection.cpp -o CMakeFiles\mymuduo.dir\TcpConnection.cpp.s
+
 CMakeFiles/mymuduo.dir/TcpServer.cpp.obj: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/TcpServer.cpp.obj: ../TcpServer.cpp
 CMakeFiles/mymuduo.dir/TcpServer.cpp.obj: CMakeFiles/mymuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/mymuduo.dir/TcpServer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/mymuduo.dir/TcpServer.cpp.obj"
 	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mymuduo.dir/TcpServer.cpp.obj -MF CMakeFiles\mymuduo.dir\TcpServer.cpp.obj.d -o CMakeFiles\mymuduo.dir\TcpServer.cpp.obj -c E:\daima\c++\network_pragram\my_muduo\TcpServer.cpp
 
 CMakeFiles/mymuduo.dir/TcpServer.cpp.i: cmake_force
@@ -239,7 +267,7 @@ CMakeFiles/mymuduo.dir/TcpServer.cpp.s: cmake_force
 CMakeFiles/mymuduo.dir/Thread.cpp.obj: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/Thread.cpp.obj: ../Thread.cpp
 CMakeFiles/mymuduo.dir/Thread.cpp.obj: CMakeFiles/mymuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/mymuduo.dir/Thread.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/mymuduo.dir/Thread.cpp.obj"
 	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mymuduo.dir/Thread.cpp.obj -MF CMakeFiles\mymuduo.dir\Thread.cpp.obj.d -o CMakeFiles\mymuduo.dir\Thread.cpp.obj -c E:\daima\c++\network_pragram\my_muduo\Thread.cpp
 
 CMakeFiles/mymuduo.dir/Thread.cpp.i: cmake_force
@@ -253,7 +281,7 @@ CMakeFiles/mymuduo.dir/Thread.cpp.s: cmake_force
 CMakeFiles/mymuduo.dir/TimeStamp.cpp.obj: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/TimeStamp.cpp.obj: ../TimeStamp.cpp
 CMakeFiles/mymuduo.dir/TimeStamp.cpp.obj: CMakeFiles/mymuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/mymuduo.dir/TimeStamp.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/mymuduo.dir/TimeStamp.cpp.obj"
 	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mymuduo.dir/TimeStamp.cpp.obj -MF CMakeFiles\mymuduo.dir\TimeStamp.cpp.obj.d -o CMakeFiles\mymuduo.dir\TimeStamp.cpp.obj -c E:\daima\c++\network_pragram\my_muduo\TimeStamp.cpp
 
 CMakeFiles/mymuduo.dir/TimeStamp.cpp.i: cmake_force
@@ -267,7 +295,7 @@ CMakeFiles/mymuduo.dir/TimeStamp.cpp.s: cmake_force
 CMakeFiles/mymuduo.dir/logger.cpp.obj: CMakeFiles/mymuduo.dir/flags.make
 CMakeFiles/mymuduo.dir/logger.cpp.obj: ../logger.cpp
 CMakeFiles/mymuduo.dir/logger.cpp.obj: CMakeFiles/mymuduo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/mymuduo.dir/logger.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/mymuduo.dir/logger.cpp.obj"
 	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mymuduo.dir/logger.cpp.obj -MF CMakeFiles\mymuduo.dir\logger.cpp.obj.d -o CMakeFiles\mymuduo.dir\logger.cpp.obj -c E:\daima\c++\network_pragram\my_muduo\logger.cpp
 
 CMakeFiles/mymuduo.dir/logger.cpp.i: cmake_force
@@ -281,6 +309,7 @@ CMakeFiles/mymuduo.dir/logger.cpp.s: cmake_force
 # Object files for target mymuduo
 mymuduo_OBJECTS = \
 "CMakeFiles/mymuduo.dir/Acceptor.cpp.obj" \
+"CMakeFiles/mymuduo.dir/Buffer.cpp.obj" \
 "CMakeFiles/mymuduo.dir/Channel.cpp.obj" \
 "CMakeFiles/mymuduo.dir/CurrentThread.cpp.obj" \
 "CMakeFiles/mymuduo.dir/DefaultPoller.cpp.obj" \
@@ -291,6 +320,7 @@ mymuduo_OBJECTS = \
 "CMakeFiles/mymuduo.dir/InetAddress.cpp.obj" \
 "CMakeFiles/mymuduo.dir/Poller.cpp.obj" \
 "CMakeFiles/mymuduo.dir/Socket.cpp.obj" \
+"CMakeFiles/mymuduo.dir/TcpConnection.cpp.obj" \
 "CMakeFiles/mymuduo.dir/TcpServer.cpp.obj" \
 "CMakeFiles/mymuduo.dir/Thread.cpp.obj" \
 "CMakeFiles/mymuduo.dir/TimeStamp.cpp.obj" \
@@ -300,6 +330,7 @@ mymuduo_OBJECTS = \
 mymuduo_EXTERNAL_OBJECTS =
 
 ../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/Acceptor.cpp.obj
+../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/Buffer.cpp.obj
 ../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/Channel.cpp.obj
 ../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/CurrentThread.cpp.obj
 ../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/DefaultPoller.cpp.obj
@@ -310,6 +341,7 @@ mymuduo_EXTERNAL_OBJECTS =
 ../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/InetAddress.cpp.obj
 ../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/Poller.cpp.obj
 ../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/Socket.cpp.obj
+../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/TcpConnection.cpp.obj
 ../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/TcpServer.cpp.obj
 ../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/Thread.cpp.obj
 ../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/TimeStamp.cpp.obj
@@ -318,7 +350,7 @@ mymuduo_EXTERNAL_OBJECTS =
 ../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/linklibs.rsp
 ../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/objects1.rsp
 ../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX shared library ..\lib\libmymuduo.dll"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX shared library ..\lib\libmymuduo.dll"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\mymuduo.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
