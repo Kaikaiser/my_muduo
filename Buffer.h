@@ -39,6 +39,7 @@ public:
     {
         return begin() + readerIndex_;
     }
+
     // onMessage  Buffer -> string 
     void retrieve(size_t len)
     {
@@ -77,7 +78,28 @@ public:
             makeSpace(len); // 扩容函数
         }
     }
+    // 把[data, data + lem]上的数据添加到writable缓冲区中
+    void append(const char* data, size_t len)
+    {
+        ensureWriteableBytes(len);
+        std::copy(data, data + len, beginWrite());
+        writerIndex_ += len;
+    }
 
+    char* beginWrite()
+    {
+        return begin() + writerIndex_;
+    }
+
+    char* beginWrite() const
+    {
+        return begin() + writerIndex_;
+    }
+
+    // 从fd上读数据
+    ssize_t readFd(int fd, int* saveErrno);
+    // 从fd上写数据
+    ssize_t writeFd(int fd, int* saveErrno);
 private:
     char* begin()
     {
