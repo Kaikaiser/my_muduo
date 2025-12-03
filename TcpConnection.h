@@ -3,6 +3,7 @@
 #include "Callbacks.h"
 #include "InetAddress.h"
 #include "Buffer.h"
+#include "TimeStamp.h"
 #include <memory>
 #include <string>
 #include <atomic>
@@ -41,22 +42,49 @@ public:
     void send(const void *message, int len);
     // 关闭连接
     void shutdown();
+    // 设置回调函数
+    void setConnectionCallback(const ConnectionCallback &cb) { connectionCallback_ = cb; }
+    void setMessageCallback(const MessageCallback &cb) { messageCallback_ = cb; }
+    void setWriteCompleteCallback(const WriteCompleteCallback &cb) { writeCompleteCallback_ = cb; }
+    void setHighWaterMarkCallback(const HighWaterMarkCallback &cb, size_t highWaterMark) 
+    {
+        highWaterMarkCallback_ = cb;
+        highWaterMark_ = highWaterMark;
+    }
+    void setCloseCallback(const CloseCallback &cb) { closeCallback_ = cb; }
+    // 建立连接
+    void connectEstablished();
+    // 连接销毁
+    void connectDestoryed();
 private:
     enum StateE {kDisconnected, kDisconnecting, kConnected, kConnecting};
+    void handleRead(TimeStamp receiveTime);
+    void handleWrite();
+    void handleClose();
+    void handleError();
+
+    void sendInLoop(const void &message, size_t len);
+    void shutdownInLoop();
+
     EventLoop *loop_; // 这里不是baseloop 因为TcpConnection是在subloop中进行管理的
     const std::string name_;
     std::atomic_int state_;
     bool reading_;
+
     std::unique_ptr<Socket> socket_;
     std::unique_ptr<Channel> channel_;
+
+    // 这里和Acceptor类似  Acceptor => mainloop   TcpConnection => subloop
     const InetAddress localAddr_;
     const InetAddress peerAddr_;
+
     ConnectionCallback connectionCallback_;  // 有新连接时的回调
     MessageCallback messageCallback_; // 有读写消息时的回调
     WriteCompleteCallback writeCompleteCallback_; // 消息发送完成后的回调
     HighWaterMarkCallback highWaterMarkCallback_; // 高水位回调
     CloseCallback closeCallback_; 
     size_t highWaterMark_;
+
     Buffer inputBuffer_;
     Buffer outputBuffer_;
 

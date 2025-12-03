@@ -24,5 +24,4 @@ public:
 
 private:
     const int sockfd_;
-
 };

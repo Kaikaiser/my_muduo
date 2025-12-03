@@ -57,7 +57,7 @@ void Acceptor::handleRead()
     {
         if(newConnectionCallback_)
         {
-            newConnectionCallback_(connfd, peerAddr); // 轮询找到subLoop 唤醒 分发当前的新客户端的channel
+            newConnectionCallback_(connfd, peerAddr); // 轮询找到subLoop 唤醒 分发当前的新客户端的channel  主要是为了执行这一步
         }
         else
         {
