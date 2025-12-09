@@ -1,6 +1,6 @@
 #pragma once
 #include "noncopyable.h"
-#include<string>
+#include <string>
 
 // 定义宏的时候换行使用\ 而且\后面不能有空格
 // 使用——LOG_INFO("%s %d", org1, org2)

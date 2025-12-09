@@ -1,6 +1,9 @@
 #include "Buffer.h"
 #include <errno.h>
 #include <sys/uio.h>
+#include <unistd.h>
+
+
 /*
 * 从fd上读数据，Poller工作在LT模式
 * Buffer缓冲区是有大小的，但是从fd读取数据时，不知道tcp数据的大小
@@ -38,3 +41,15 @@ ssize_t Buffer::readFd(int fd, int* saveErrno)
     }
     return n;
 }
+
+
+ssize_t Buffer::writeFd(int fd, int* saveErrno)
+{   
+    ssize_t n = ::write(fd(), peek(), readableBytes());
+    if(n < 0)
+    {
+        // 这里的*saveErrno会修改这个函数外的saveErrno的值，所以不用返回
+        *saveErrno = errno;
+    }
+    return n;
+} 
