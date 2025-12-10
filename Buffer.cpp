@@ -24,7 +24,7 @@ ssize_t Buffer::readFd(int fd, int* saveErrno)
     const int iovcnt = (writable < sizeof(extrabuf) ? 2 : 1);
     // readv会分散的把数据读取到vec中的缓冲区中  效率很高
     // 一般来说 vec[0]为main buf  vec[1]是临时存储区 后续再加到main buf即可 为了避免系统使用read多次读
-    const ssize_int n = ::readv(fd, &vec, iovcnt);
+    const ssize_t n = ::readv(fd, &vec, iovcnt);
     if(n < 0)
     {
         *saveErrno = errno;

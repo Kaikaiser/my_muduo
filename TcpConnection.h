@@ -56,12 +56,16 @@ public:
     void connectEstablished();
     // 连接销毁
     void connectDestoryed();
+    
 private:
     enum StateE {kDisconnected, kDisconnecting, kConnected, kConnecting};
+    void setState(StateE state) { state_ = state;}
     void handleRead(TimeStamp receiveTime);
     void handleWrite();
     void handleClose();
     void handleError();
+
+    void send(const std::string &buf);
 
     void sendInLoop(const void &message, size_t len);
     void shutdownInLoop();
@@ -85,8 +89,8 @@ private:
     CloseCallback closeCallback_; 
     size_t highWaterMark_;
 
-    Buffer inputBuffer_;
-    Buffer outputBuffer_;
+    Buffer inputBuffer_;  // 接受数据的缓冲区
+    Buffer outputBuffer_; // 发送数据的缓冲区
 
 
 };

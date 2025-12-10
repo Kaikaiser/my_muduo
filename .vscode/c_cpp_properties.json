@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Users/a/AppData/Local/Programs/mingw64/include/c++/13.1.0",
+                "C:/Users/a/AppData/Local/Programs/mingw64/include/c++/13.1.0/x86_64-w64-mingw32",
+                "C:/Users/a/AppData/Local/Programs/mingw64/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "8.1",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "C:\\Users\\a\\AppData\\Local\\Programs\\mingw64\\bin\\g++.exe"
+        }
+    ],
+    "version": 4
+}

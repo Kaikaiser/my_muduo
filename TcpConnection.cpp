@@ -5,7 +5,11 @@
 
 #include <errno.h>
 #include <memory>
-
+#include <string.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
 
 
 static EventLoop* CheckLoopNotNull(EventLoop *loop)
@@ -42,9 +46,15 @@ TcpConnection::TcpConnection(EventLoop *loop,
 }
 
 
+void TcpConnection::send(const std::string &buf)
+{
+    
+}
+
+
 TcpConnection::~TcpConnection()
 {
-    LOG_INFO("TcpConnection::dtor[%s] at fd=%d state=%d \n", name_.c_str(), channel_->fd(), state_);
+    LOG_INFO("TcpConnection::dtor[%s] at fd=%d state=%d \n", name_.c_str(), channel_->fd(), (int)state_);
 }
 
 void TcpConnection::handleRead(TimeStamp receiveTime)
@@ -54,7 +64,7 @@ void TcpConnection::handleRead(TimeStamp receiveTime)
     if(n > 0)
     {
         // 已经建立连接的用户， 有可读事件发生了，调用用户传入的回调操作onMessage
-        messageCallback_(std::shared_from_this(), &inputBuffer_, receiveTime);
+        messageCallback_(shared_from_this(), &inputBuffer_, receiveTime);
     }
     else if(n == 0)
     {
@@ -70,29 +80,62 @@ void TcpConnection::handleRead(TimeStamp receiveTime)
 
 void TcpConnection::handleWrite()
 {
-    int savedErrno = 0;
-    ssize_t n = outputBuffer_.writeFd(channel_->fd(), &savedErrno);
-    if(n > 0)
+    if(channel_->isWriting())
     {
-        outputBuffer_.retrieve(n);
-        if(outputBuffer_.readableBytes() == 0)
+        int savedErrno = 0;
+        ssize_t n = outputBuffer_.writeFd(channel_->fd(), &savedErrno);
+        if(n > 0)
         {
-            // 用来移除写事件
-            channel_->disableWriting();
-            if(writeCompleteCallback_)
+            outputBuffer_.retrieve(n);
+            if(outputBuffer_.readableBytes() == 0)
             {
-                loop_->queueInLoop(std::bind(writeCompleteCallback_, std::shared_from_this()));
+                // 用来移除写事件
+                channel_->disableWriting();
+                if(writeCompleteCallback_)
+                {
+                    // 唤醒loop_对应的thread线程，执行回调
+                    loop_->queueInLoop(std::bind(writeCompleteCallback_, shared_from_this()));
+                }
+                if(state_ == kDisconnecting)
+                {
+                    shutdownInLoop();
+                }
             }
         }
+        else
+        {
+            LOG_ERROR("TcpConnection::handleWrite")
+        }
+    }
+    else
+    {
+        LOG_ERROR("TcpConnection fd=%d is down, no more writing \n", channel_->fd());
     }
 }
 
 void TcpConnection::handleClose()
 {
+    LOG_ERROR("TcpConnection::handleClose fd=%d, state=%d \n", channel_->fd(), (int)state_);
+    setState(kDisconnecting);
+    channel_->disableAll();
+
+    TcpConnectionPtr connPtr = shared_from_this();
+    connectionCallback_(connPtr); // 执行连接关闭的回调
+    closeCallback_(connPtr); // 关闭连接的回调
 
 }
 
 void TcpConnection::handleError()
 {
-
+    int optval;
+    socklen_t option = sizeof(optval);
+    int err;
+    if(::getsockopt(channel_->fd(), SOL_SOCKET, SO_ERROR, &option) < 0)
+    {
+        err = errno;
+    }
+    else
+    {
+        err = optval;
+    }
 }
