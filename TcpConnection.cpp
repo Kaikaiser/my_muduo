@@ -46,11 +46,86 @@ TcpConnection::TcpConnection(EventLoop *loop,
 }
 
 
-void TcpConnection::send(const std::string &buf)
+void TcpConnection::send(const std::string &data)
 {
+    if(state_ == kConnected)
+    {
+        if(loop_->isInLoopThread())
+        {
+            sendInLoop(data.c_str(), data.size());
+        }
+        else
+        {
+            loop_->runInLoop(std::bind(&TcpConnection::sendInLoop, this, data.c_str(), data.size()));
+        }
+    }
+}
+
+/**
+ * 发送数据 应用写的快，但是内核发送慢，需要把发送数据写入缓冲区，而且设置水位回调
+*/
+void TcpConnection::sendInLoop(const void* data, size_t len)
+{
+    ssize_t nwrote = 0;
+    size_t remaining = len;
+    bool faultError = false;
+
+    // 之前调用过该connection 的shutdown，不能再进行发送了
+    if(state_ == kDisconnected)
+    {
+        LOG_ERROR("disconnected, give up writing!");
+        return;
+    }
+    // 表示channel_第一次开始写数据， 并且缓冲区没有待发送的数据
+    if(!channel_->isWriting() && outputBuffer_.readableBytes() == 0)
+    {
+        nwrote = ::write(channel_->fd(), data, len);
+        if(nwrote >= 0)
+        {
+            remaining = len - nwrote;
+            if(remaining == 0 && writeCompleteCallback_)
+            {
+                // 既然在这里数据全部发送完成，就不用给channel设置epollout事件了
+                loop_->queueInLoop(std::bind(writeCompleteCallback_, shared_from_this()));
+            }
+        }
+        else // nwrote < 0
+        {
+            nwrote = 0;
+            if(errno != EWOULDBLOCK)
+            {
+                LOG_ERROR("TcpConnection::sendInLoop");
+                if(errno == EPIPE || errno == ECONNRESET) // SIGPIPE RESET
+                {
+                    faultError = true;
+                }
+            }
+        }
+    }
+    // 说明当前这一次的write， 并没有把数据全部都发送出去， 剩余的数据存到缓冲区，然后给channel
+    // 注册epollout事件， poller发现tcp的发送缓冲区有空间，会通知相应的sock->channel，调用相应的writeCallback_方法
+    // 也就是调用TcpConnection::handleWrite方法，把发送缓冲区中的数据全部发送完成
+    if(!faultError && remaining > 0)
+    {
+        // 目标发送缓冲区中的剩余的待发送数据的长度
+        size_t oldLen = outputBuffer_.readableBytes();
+        if(oldLen + remaining >= highWaterMark_ && oldLen < highWaterMark_ && highWaterMarkCallback_)
+        {
+            loop_->queueInLoop(std::bind(highWaterMarkCallback_, shared_from_this(), oldLen + remaining));
+        }
+        outputBuffer_.append((char*)data + nwrote, remaining);
+        if(!channel_->isWriting())
+        {
+            channel_->enableWriting(); // 这里一定要注册channel的写事件，否则poller不会给channel通知epollout
+        }
+    }
     
 }
 
+void TcpConnection::shutdown()
+{
+
+}
 
 TcpConnection::~TcpConnection()
 {
