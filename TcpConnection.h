@@ -38,9 +38,9 @@ public:
     const InetAddress& peerAddr() const { return peerAddr_; }
     bool connected () const { return state_ == kConnected; }
     
-    // 发送数据
+    // 发送数据  是对外暴露的 不能写到private
     void send(const std::string &buf);
-    // 关闭连接
+    // 关闭连接   同理
     void shutdown();
     // 设置回调函数
     void setConnectionCallback(const ConnectionCallback &cb) { connectionCallback_ = cb; }
@@ -65,10 +65,7 @@ private:
     void handleClose();
     void handleError();
 
-    
-
-    void sendInLoop(const void &message, size_t len);
-    void shutdown();
+    void sendInLoop(const void* message, size_t len);
     void shutdownInLoop();
 
     EventLoop *loop_; // 这里不是baseloop 因为TcpConnection是在subloop中进行管理的

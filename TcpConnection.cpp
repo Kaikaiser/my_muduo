@@ -40,7 +40,7 @@ TcpConnection::TcpConnection(EventLoop *loop,
     channel_->setReadCallback(std::bind(&TcpConnection::handleRead, this, std::placeholders::_1));
     channel_->setWriteCallback(std::bind(&TcpConnection::handleWrite, this));
     channel_->setCloseCallback(std::bind(&TcpConnection::handleClose, this));
-    channel_->setErrorCallback(std::bind(&TcpConnection::handleClose, this));
+    channel_->setErrorCallback(std::bind(&TcpConnection::handleError, this));
     LOG_INFO("TcpConnection::ctor[%s] at fd=%d\n", name_.c_str(), sockfd);
     socket_->setKeepAlive(true);
 }
@@ -122,15 +122,51 @@ void TcpConnection::sendInLoop(const void* data, size_t len)
     
 }
 
-void TcpConnection::shutdown()
-{
-
-}
-
 TcpConnection::~TcpConnection()
 {
     LOG_INFO("TcpConnection::dtor[%s] at fd=%d state=%d \n", name_.c_str(), channel_->fd(), (int)state_);
 }
+
+// 关闭连接
+void TcpConnection::shutdown()
+{
+    if(state_ == kConnected)
+    {
+        setState(kDisconnecting);
+        loop_->runInLoop(std::bind(&TcpConnection::shutdownInLoop, this));
+    }
+}
+
+void TcpConnection::shutdownInLoop()
+{
+    if(!channel_->isWriting()) // 说明outputBuffer中的数据已经全部发送完成
+    {
+        socket_->shutdownWrite(); // 关闭写端
+    }
+}
+
+// 建立连接
+void TcpConnection::connectEstablished()
+{
+    setState(kConnected);
+    channel_->tie(shared_from_this());
+    channel_->enableReading(); // 向poller注册channel的epollin事件
+
+    // 新连接建立 执行回调
+    connectionCallback_(shared_from_this());
+}
+// 连接销毁
+void TcpConnection::connectDestoryed()
+{
+    if(state_ == kConnected)
+    {
+        setState(kDisconnected);
+        channel_->disableAll(); // 把channel的所有感兴趣事件从poller中del掉
+        connectionCallback_(shared_from_this());
+    }
+    channel_->remove(); // 把channel从poller中删除
+}
+
 
 void TcpConnection::handleRead(TimeStamp receiveTime)
 {
@@ -204,7 +240,7 @@ void TcpConnection::handleError()
 {
     int optval;
     socklen_t option = sizeof(optval);
-    int err;
+    int err = 0;
     if(::getsockopt(channel_->fd(), SOL_SOCKET, SO_ERROR, &option) < 0)
     {
         err = errno;
@@ -213,4 +249,5 @@ void TcpConnection::handleError()
     {
         err = optval;
     }
+    LOG_ERROR("TcpConnection::handleError name:%s, SO_ERROR=%d \n", name_.c_str(), err);
 }
