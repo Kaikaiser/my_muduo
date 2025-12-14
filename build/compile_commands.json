@@ -81,6 +81,11 @@
 },
 {
   "directory": "E:/daima/c++/network_pragram/my_muduo/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmymuduo_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\mymuduo.dir\\hello_world.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\hello_world.cpp",
+  "file": "E:/daima/c++/network_pragram/my_muduo/hello_world.cpp"
+},
+{
+  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
   "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmymuduo_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\mymuduo.dir\\logger.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\logger.cpp",
   "file": "E:/daima/c++/network_pragram/my_muduo/logger.cpp"
 }

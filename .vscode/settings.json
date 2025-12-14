@@ -71,7 +71,8 @@
         "optional": "cpp",
         "string_view": "cpp",
         "fstream": "cpp",
-        "sstream": "cpp"
+        "sstream": "cpp",
+        "xstddef": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }

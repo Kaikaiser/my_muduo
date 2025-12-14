@@ -35,6 +35,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/mymuduo.dir/Thread.cpp.obj.d"
   "CMakeFiles/mymuduo.dir/TimeStamp.cpp.obj"
   "CMakeFiles/mymuduo.dir/TimeStamp.cpp.obj.d"
+  "CMakeFiles/mymuduo.dir/hello_world.cpp.obj"
+  "CMakeFiles/mymuduo.dir/hello_world.cpp.obj.d"
   "CMakeFiles/mymuduo.dir/logger.cpp.obj"
   "CMakeFiles/mymuduo.dir/logger.cpp.obj.d"
 )

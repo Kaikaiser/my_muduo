@@ -512,6 +512,30 @@ TimeStamp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/TimeStamp.cpp.s
 .PHONY : TimeStamp.cpp.s
 
+hello_world.obj: hello_world.cpp.obj
+.PHONY : hello_world.obj
+
+# target to build an object file
+hello_world.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/hello_world.cpp.obj
+.PHONY : hello_world.cpp.obj
+
+hello_world.i: hello_world.cpp.i
+.PHONY : hello_world.i
+
+# target to preprocess a source file
+hello_world.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/hello_world.cpp.i
+.PHONY : hello_world.cpp.i
+
+hello_world.s: hello_world.cpp.s
+.PHONY : hello_world.s
+
+# target to generate assembly for a file
+hello_world.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/hello_world.cpp.s
+.PHONY : hello_world.cpp.s
+
 logger.obj: logger.cpp.obj
 .PHONY : logger.obj
 
@@ -593,6 +617,9 @@ help:
 	@echo ... TimeStamp.obj
 	@echo ... TimeStamp.i
 	@echo ... TimeStamp.s
+	@echo ... hello_world.obj
+	@echo ... hello_world.i
+	@echo ... hello_world.s
 	@echo ... logger.obj
 	@echo ... logger.i
 	@echo ... logger.s
