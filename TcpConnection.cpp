@@ -156,7 +156,7 @@ void TcpConnection::connectEstablished()
     connectionCallback_(shared_from_this());
 }
 // 连接销毁
-void TcpConnection::connectDestoryed()
+void TcpConnection::connectDestroyed()
 {
     if(state_ == kConnected)
     {
@@ -167,7 +167,7 @@ void TcpConnection::connectDestoryed()
     channel_->remove(); // 把channel从poller中删除
 }
 
-
+// poller -> channel::closeCallback ->TcpConnection::handleClose
 void TcpConnection::handleRead(TimeStamp receiveTime)
 {
     int savedErrno = 0;

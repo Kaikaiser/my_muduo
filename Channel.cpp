@@ -21,7 +21,7 @@ Channel::~Channel()
 {
 }
 
-// channel的tie方法是什么时候调用
+// channel的tie方法是什么时候调用？ 一个TcpConnection新连接创建的时候（底层绑定一个channel） TcpConnection -> channel
 void Channel::tie(const std::shared_ptr<void> &obj)
 {
     tie_ = obj;

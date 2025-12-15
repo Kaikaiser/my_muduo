@@ -32,7 +32,7 @@ public:
 
     ~TcpConnection();
 
-    EventLoop* getloop() const { return loop_; }
+    EventLoop* getLoop() const { return loop_; }
     const std::string& name() const { return name_; }
     const InetAddress& localAddr() const { return localAddr_; }
     const InetAddress& peerAddr() const { return peerAddr_; }

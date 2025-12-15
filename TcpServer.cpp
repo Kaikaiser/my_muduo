@@ -1,6 +1,8 @@
 #include "TcpServer.h"
 #include "Logger.h"
 #include "EventLoop.h"
+#include "TcpConnection.h"
+
 #include <string>
 #include <functional>
 #include <strings.h>
@@ -34,7 +36,16 @@ TcpServer::TcpServer(EventLoop *loop, const InetAddress &listenAddr, const std::
 
 TcpServer::~TcpServer()
 {
-    
+    for(auto &item : connections_)
+    {
+        // 这个局部shared_ptr强智能指针变量 可以自动释放new出来的TcpConnection对象资源
+        TcpConnectionPtr conn(item.second);
+        item.second.reset();
+
+        // 销毁连接
+        conn->getLoop()->runInLoop(std::bind(&TcpConnection::connectDestroyed, conn));
+
+    }
 }
 
 // 设置底层subloop的个数
@@ -87,7 +98,7 @@ void TcpServer::newConnection(int sockfd, const InetAddress &peerAddr)
                             peerAddr));
     connections_[connName] = conn;
     // 下面的回调都是用户设置给TcpServer -> TcpConnection -> Channels -> Poller -> notify channel 调用回调
-    conn->setConnectionCallback(connectionCallback_);
+    conn->setConnectionCallback(connectionCallback_); // TcpServer -> TcpConnection
     conn->setMessageCallback(messageCallback_);
     conn->setWriteCompleteCallback(writeCompleteCallback_);
 
@@ -96,4 +107,19 @@ void TcpServer::newConnection(int sockfd, const InetAddress &peerAddr)
 
     // 直接调用TcpConnection::connectEstablished
     ioLoop->runInLoop(std::bind(&TcpConnection::connectEstablished, conn));
+}
+
+void TcpSerser::removeConnection(const TcpConnectionPtr &conn)
+{
+    loop_->runInLoop(std::bind(&TcpServer::removeConnectionInLoop, this, conn));
+}
+
+
+void TcpServer::removeConnectionInLoop(const TcpConnectionPtr &conn)
+{
+    LOG_ERROR("TcpServer::removeConnectionInLoop [%s] - connection %s \n", name_.c_str(), conn->name().c_str());
+
+    connections_.erase(conn->name());
+    EventLoop *ioLoop = conn->getLoop();
+    ioLoop->queueInLoop(std::bind(&TcpConnection::connectDestroyed, conn));
 }
