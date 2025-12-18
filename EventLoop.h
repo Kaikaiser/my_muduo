@@ -46,7 +46,7 @@ public:
     bool hasChannel(Channel *channel);
     
     // 判断EventLoop的对象是否在当前线程里面
-    bool isInLoopThread() const {return threadId_ == CurrentThraedId::tid();}
+    bool isInLoopThread() const {return threadId_ == CurrentThread::tid();}
 
 private:
     void handleRead(); // wake up

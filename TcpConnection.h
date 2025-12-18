@@ -55,7 +55,7 @@ public:
     // 建立连接
     void connectEstablished();
     // 连接销毁
-    void connectDestoryed();
+    void connectDestroyed();
     
 private:
     enum StateE {kDisconnected, kDisconnecting, kConnected, kConnecting};

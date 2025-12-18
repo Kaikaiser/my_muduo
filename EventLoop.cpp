@@ -69,11 +69,11 @@ void EventLoop::loop()
     LOG_INFO("EventLoop %p start looping \n", this);
     while(!quit_)
     {
-        activeChannels.clear();
+        activeChannels_.clear();
         // 主要用于监听两类的fd  一类是 client 的fd  一类是 wakeupfd
         pollReturnTime_ = poller_->poll(kPollTimes, &activeChannels_);
 
-        for( Channel *channel : activeChannels_)
+        for(Channel *channel : activeChannels_)
         {
             // Poller显示监听了哪些channel发生事件了，然后上报给EventLoop，通知channel处理相应的事件
             channel->handlieEvent(pollReturnTime_);
@@ -99,7 +99,7 @@ void EventLoop::loop()
  *subloop1          subloop2         subloop3    .....  
 */
 
-void Eventloop::quit()
+void EventLoop::quit()
 {
     //1.loop在自己的线程中调用quit 
     quit_ = true;
@@ -116,8 +116,8 @@ void Eventloop::quit()
 
 void EventLoop::handleRead()
 {
-    unint64_t one = 1;
-    ssize_t n = read(wakeupFd_, &one, sizeof(one));
+    uint64_t one = 1;
+    ssize_t n = ::read(wakeupFd_, &one, sizeof(one));
     if(n != sizeof(one))
     {
         LOG_ERROR("EventLoop::handleRead() reads %d bytes insteadof 8", n);
@@ -139,11 +139,11 @@ void EventLoop::runInLoop(Functor cb)
 }
 
 // 将cb放入queue中，唤醒loop所在的线程并执行cb操作
-void Eventloop::queueInLoop(Functor cb)
+void EventLoop::queueInLoop(Functor cb)
 {
     {
         std::unique_lock<std::mutex> lock(mutex_);
-        queueInLoop.emplace_back(cb);
+        pendingFunctors_.emplace_back(cb);
     }
 
     // 唤醒需要执行cb操作的loop线程
@@ -158,8 +158,8 @@ void Eventloop::queueInLoop(Functor cb)
 // 唤醒loop所在线程 向wakeupFd_写入一个数据 wakeupChannel发生读事件， 当前loop线程被唤醒
 void EventLoop::wakeup()
 {
-    uint64_t one =1;
-    sszie_t n = write(wakeupFd_, &one, sizeof(one));
+    uint64_t one = 1;
+    ssize_t n = ::write(wakeupFd_, &one, sizeof(one));
     if(n != sizeof(one))
     {
         LOG_ERROR("EventLoop::wakeup() writes %lu bytes instead of 8", n);
@@ -176,7 +176,7 @@ void EventLoop::removeChannel(Channel *channel)
 {
     poller_->removeChannel(channel);
 }
-void EventLoop::hasChannel(Channel *channel)
+bool EventLoop::hasChannel(Channel *channel)
 {
     return poller_->hasChannel(channel);
 }

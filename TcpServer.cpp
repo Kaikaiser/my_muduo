@@ -22,7 +22,7 @@ TcpServer::TcpServer(EventLoop *loop, const InetAddress &listenAddr, const std::
         , ipPort_(listenAddr.toIpPort()) 
         , name_(nameArg)
         , acceptor_(new Acceptor(loop, listenAddr, option == kReusePort))
-        , thread_(new EventLoopThreadPool(loop, name_))
+        , threadPool_(new EventLoopThreadPool(loop, name_))
         , connectionCallback_()
         , messageCallback_()
         , nextConnId_(1)
@@ -76,10 +76,10 @@ void TcpServer::newConnection(int sockfd, const InetAddress &peerAddr)
     // c++ 字符串拼接规则 string = string + char* 或者 string = char* + string, string可以为明字符串 
     std::string connName = name_ + buf;
 
-    LOG_ERROR("TcpServer::newConnection [%s] - new connection [%s] from %s \n",
+    LOG_INFO("TcpServer::newConnection [%s] - new connection [%s] from %s \n",
         name_.c_str(), connName.c_str(), peerAddr.toIpPort().c_str());
 
-    // 通过sockfd过去其帮顶的本机的ip地址和端口信息
+    // 通过sockfd获取其绑定的本机的ip地址和端口信息
     sockaddr_in local;
     ::memset(&local, 0, sizeof(local));
     socklen_t addrlen = sizeof(local);
@@ -109,7 +109,7 @@ void TcpServer::newConnection(int sockfd, const InetAddress &peerAddr)
     ioLoop->runInLoop(std::bind(&TcpConnection::connectEstablished, conn));
 }
 
-void TcpSerser::removeConnection(const TcpConnectionPtr &conn)
+void TcpServer::removeConnection(const TcpConnectionPtr &conn)
 {
     loop_->runInLoop(std::bind(&TcpServer::removeConnectionInLoop, this, conn));
 }

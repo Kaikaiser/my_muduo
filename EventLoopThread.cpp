@@ -15,7 +15,7 @@ EventLoopThread::EventLoopThread(const ThreadInitCallback &cb,
 }
 
 
-EventLoopThread::~EventLoopThread();
+EventLoopThread::~EventLoopThread()
 {
     exiting_ = true;
     if(loop_ != nullptr)
@@ -23,7 +23,6 @@ EventLoopThread::~EventLoopThread();
         loop_->quit();
         thread_.join();
     }
-
 }
 
 // 相当于主线程等待子线层初始化完成

@@ -11,5 +11,8 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -std=c++11 -fPIC")
 
 #定义参与编译的源代码文件
 aux_source_directory(. SRC_LIST)
+aux_source_directory(${PROJECT_SOURCE_DIR}/http HTTP_SRC)
+list(APPEND SRC_LIST ${HTTP_SRC})
+
 #编译生成动态库mymuduo
 add_library(mymuduo SHARED ${SRC_LIST})
