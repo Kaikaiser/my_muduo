@@ -536,6 +536,102 @@ hello_world.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/hello_world.cpp.s
 .PHONY : hello_world.cpp.s
 
+http/HttpRequest.obj: http/HttpRequest.cpp.obj
+.PHONY : http/HttpRequest.obj
+
+# target to build an object file
+http/HttpRequest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/HttpRequest.cpp.obj
+.PHONY : http/HttpRequest.cpp.obj
+
+http/HttpRequest.i: http/HttpRequest.cpp.i
+.PHONY : http/HttpRequest.i
+
+# target to preprocess a source file
+http/HttpRequest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/HttpRequest.cpp.i
+.PHONY : http/HttpRequest.cpp.i
+
+http/HttpRequest.s: http/HttpRequest.cpp.s
+.PHONY : http/HttpRequest.s
+
+# target to generate assembly for a file
+http/HttpRequest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/HttpRequest.cpp.s
+.PHONY : http/HttpRequest.cpp.s
+
+http/HttpResponse.obj: http/HttpResponse.cpp.obj
+.PHONY : http/HttpResponse.obj
+
+# target to build an object file
+http/HttpResponse.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/HttpResponse.cpp.obj
+.PHONY : http/HttpResponse.cpp.obj
+
+http/HttpResponse.i: http/HttpResponse.cpp.i
+.PHONY : http/HttpResponse.i
+
+# target to preprocess a source file
+http/HttpResponse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/HttpResponse.cpp.i
+.PHONY : http/HttpResponse.cpp.i
+
+http/HttpResponse.s: http/HttpResponse.cpp.s
+.PHONY : http/HttpResponse.s
+
+# target to generate assembly for a file
+http/HttpResponse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/HttpResponse.cpp.s
+.PHONY : http/HttpResponse.cpp.s
+
+http/HttpServer.obj: http/HttpServer.cpp.obj
+.PHONY : http/HttpServer.obj
+
+# target to build an object file
+http/HttpServer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/HttpServer.cpp.obj
+.PHONY : http/HttpServer.cpp.obj
+
+http/HttpServer.i: http/HttpServer.cpp.i
+.PHONY : http/HttpServer.i
+
+# target to preprocess a source file
+http/HttpServer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/HttpServer.cpp.i
+.PHONY : http/HttpServer.cpp.i
+
+http/HttpServer.s: http/HttpServer.cpp.s
+.PHONY : http/HttpServer.s
+
+# target to generate assembly for a file
+http/HttpServer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/HttpServer.cpp.s
+.PHONY : http/HttpServer.cpp.s
+
+http/http_main.obj: http/http_main.cpp.obj
+.PHONY : http/http_main.obj
+
+# target to build an object file
+http/http_main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/http_main.cpp.obj
+.PHONY : http/http_main.cpp.obj
+
+http/http_main.i: http/http_main.cpp.i
+.PHONY : http/http_main.i
+
+# target to preprocess a source file
+http/http_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/http_main.cpp.i
+.PHONY : http/http_main.cpp.i
+
+http/http_main.s: http/http_main.cpp.s
+.PHONY : http/http_main.s
+
+# target to generate assembly for a file
+http/http_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/http_main.cpp.s
+.PHONY : http/http_main.cpp.s
+
 logger.obj: logger.cpp.obj
 .PHONY : logger.obj
 
@@ -620,6 +716,18 @@ help:
 	@echo ... hello_world.obj
 	@echo ... hello_world.i
 	@echo ... hello_world.s
+	@echo ... http/HttpRequest.obj
+	@echo ... http/HttpRequest.i
+	@echo ... http/HttpRequest.s
+	@echo ... http/HttpResponse.obj
+	@echo ... http/HttpResponse.i
+	@echo ... http/HttpResponse.s
+	@echo ... http/HttpServer.obj
+	@echo ... http/HttpServer.i
+	@echo ... http/HttpServer.s
+	@echo ... http/http_main.obj
+	@echo ... http/http_main.i
+	@echo ... http/http_main.s
 	@echo ... logger.obj
 	@echo ... logger.i
 	@echo ... logger.s

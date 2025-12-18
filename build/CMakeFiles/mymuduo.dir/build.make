@@ -320,6 +320,62 @@ CMakeFiles/mymuduo.dir/logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/logger.cpp.s"
 	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\daima\c++\network_pragram\my_muduo\logger.cpp -o CMakeFiles\mymuduo.dir\logger.cpp.s
 
+CMakeFiles/mymuduo.dir/http/HttpRequest.cpp.obj: CMakeFiles/mymuduo.dir/flags.make
+CMakeFiles/mymuduo.dir/http/HttpRequest.cpp.obj: ../http/HttpRequest.cpp
+CMakeFiles/mymuduo.dir/http/HttpRequest.cpp.obj: CMakeFiles/mymuduo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/mymuduo.dir/http/HttpRequest.cpp.obj"
+	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mymuduo.dir/http/HttpRequest.cpp.obj -MF CMakeFiles\mymuduo.dir\http\HttpRequest.cpp.obj.d -o CMakeFiles\mymuduo.dir\http\HttpRequest.cpp.obj -c E:\daima\c++\network_pragram\my_muduo\http\HttpRequest.cpp
+
+CMakeFiles/mymuduo.dir/http/HttpRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymuduo.dir/http/HttpRequest.cpp.i"
+	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\daima\c++\network_pragram\my_muduo\http\HttpRequest.cpp > CMakeFiles\mymuduo.dir\http\HttpRequest.cpp.i
+
+CMakeFiles/mymuduo.dir/http/HttpRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/http/HttpRequest.cpp.s"
+	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\daima\c++\network_pragram\my_muduo\http\HttpRequest.cpp -o CMakeFiles\mymuduo.dir\http\HttpRequest.cpp.s
+
+CMakeFiles/mymuduo.dir/http/HttpResponse.cpp.obj: CMakeFiles/mymuduo.dir/flags.make
+CMakeFiles/mymuduo.dir/http/HttpResponse.cpp.obj: ../http/HttpResponse.cpp
+CMakeFiles/mymuduo.dir/http/HttpResponse.cpp.obj: CMakeFiles/mymuduo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/mymuduo.dir/http/HttpResponse.cpp.obj"
+	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mymuduo.dir/http/HttpResponse.cpp.obj -MF CMakeFiles\mymuduo.dir\http\HttpResponse.cpp.obj.d -o CMakeFiles\mymuduo.dir\http\HttpResponse.cpp.obj -c E:\daima\c++\network_pragram\my_muduo\http\HttpResponse.cpp
+
+CMakeFiles/mymuduo.dir/http/HttpResponse.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymuduo.dir/http/HttpResponse.cpp.i"
+	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\daima\c++\network_pragram\my_muduo\http\HttpResponse.cpp > CMakeFiles\mymuduo.dir\http\HttpResponse.cpp.i
+
+CMakeFiles/mymuduo.dir/http/HttpResponse.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/http/HttpResponse.cpp.s"
+	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\daima\c++\network_pragram\my_muduo\http\HttpResponse.cpp -o CMakeFiles\mymuduo.dir\http\HttpResponse.cpp.s
+
+CMakeFiles/mymuduo.dir/http/HttpServer.cpp.obj: CMakeFiles/mymuduo.dir/flags.make
+CMakeFiles/mymuduo.dir/http/HttpServer.cpp.obj: ../http/HttpServer.cpp
+CMakeFiles/mymuduo.dir/http/HttpServer.cpp.obj: CMakeFiles/mymuduo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/mymuduo.dir/http/HttpServer.cpp.obj"
+	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mymuduo.dir/http/HttpServer.cpp.obj -MF CMakeFiles\mymuduo.dir\http\HttpServer.cpp.obj.d -o CMakeFiles\mymuduo.dir\http\HttpServer.cpp.obj -c E:\daima\c++\network_pragram\my_muduo\http\HttpServer.cpp
+
+CMakeFiles/mymuduo.dir/http/HttpServer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymuduo.dir/http/HttpServer.cpp.i"
+	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\daima\c++\network_pragram\my_muduo\http\HttpServer.cpp > CMakeFiles\mymuduo.dir\http\HttpServer.cpp.i
+
+CMakeFiles/mymuduo.dir/http/HttpServer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/http/HttpServer.cpp.s"
+	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\daima\c++\network_pragram\my_muduo\http\HttpServer.cpp -o CMakeFiles\mymuduo.dir\http\HttpServer.cpp.s
+
+CMakeFiles/mymuduo.dir/http/http_main.cpp.obj: CMakeFiles/mymuduo.dir/flags.make
+CMakeFiles/mymuduo.dir/http/http_main.cpp.obj: ../http/http_main.cpp
+CMakeFiles/mymuduo.dir/http/http_main.cpp.obj: CMakeFiles/mymuduo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/mymuduo.dir/http/http_main.cpp.obj"
+	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mymuduo.dir/http/http_main.cpp.obj -MF CMakeFiles\mymuduo.dir\http\http_main.cpp.obj.d -o CMakeFiles\mymuduo.dir\http\http_main.cpp.obj -c E:\daima\c++\network_pragram\my_muduo\http\http_main.cpp
+
+CMakeFiles/mymuduo.dir/http/http_main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymuduo.dir/http/http_main.cpp.i"
+	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\daima\c++\network_pragram\my_muduo\http\http_main.cpp > CMakeFiles\mymuduo.dir\http\http_main.cpp.i
+
+CMakeFiles/mymuduo.dir/http/http_main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymuduo.dir/http/http_main.cpp.s"
+	D:\app\vscode\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\daima\c++\network_pragram\my_muduo\http\http_main.cpp -o CMakeFiles\mymuduo.dir\http\http_main.cpp.s
+
 # Object files for target mymuduo
 mymuduo_OBJECTS = \
 "CMakeFiles/mymuduo.dir/Acceptor.cpp.obj" \
@@ -339,7 +395,11 @@ mymuduo_OBJECTS = \
 "CMakeFiles/mymuduo.dir/Thread.cpp.obj" \
 "CMakeFiles/mymuduo.dir/TimeStamp.cpp.obj" \
 "CMakeFiles/mymuduo.dir/hello_world.cpp.obj" \
-"CMakeFiles/mymuduo.dir/logger.cpp.obj"
+"CMakeFiles/mymuduo.dir/logger.cpp.obj" \
+"CMakeFiles/mymuduo.dir/http/HttpRequest.cpp.obj" \
+"CMakeFiles/mymuduo.dir/http/HttpResponse.cpp.obj" \
+"CMakeFiles/mymuduo.dir/http/HttpServer.cpp.obj" \
+"CMakeFiles/mymuduo.dir/http/http_main.cpp.obj"
 
 # External object files for target mymuduo
 mymuduo_EXTERNAL_OBJECTS =
@@ -362,11 +422,15 @@ mymuduo_EXTERNAL_OBJECTS =
 ../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/TimeStamp.cpp.obj
 ../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/hello_world.cpp.obj
 ../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/logger.cpp.obj
+../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/http/HttpRequest.cpp.obj
+../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/http/HttpResponse.cpp.obj
+../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/http/HttpServer.cpp.obj
+../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/http/http_main.cpp.obj
 ../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/build.make
 ../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/linklibs.rsp
 ../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/objects1.rsp
 ../lib/libmymuduo.dll: CMakeFiles/mymuduo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX shared library ..\lib\libmymuduo.dll"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\daima\c++\network_pragram\my_muduo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX shared library ..\lib\libmymuduo.dll"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\mymuduo.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

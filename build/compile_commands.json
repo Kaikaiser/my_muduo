@@ -88,5 +88,25 @@
   "directory": "E:/daima/c++/network_pragram/my_muduo/build",
   "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmymuduo_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\mymuduo.dir\\logger.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\logger.cpp",
   "file": "E:/daima/c++/network_pragram/my_muduo/logger.cpp"
+},
+{
+  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmymuduo_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\mymuduo.dir\\http\\HttpRequest.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\http\\HttpRequest.cpp",
+  "file": "E:/daima/c++/network_pragram/my_muduo/http/HttpRequest.cpp"
+},
+{
+  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmymuduo_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\mymuduo.dir\\http\\HttpResponse.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\http\\HttpResponse.cpp",
+  "file": "E:/daima/c++/network_pragram/my_muduo/http/HttpResponse.cpp"
+},
+{
+  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmymuduo_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\mymuduo.dir\\http\\HttpServer.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\http\\HttpServer.cpp",
+  "file": "E:/daima/c++/network_pragram/my_muduo/http/HttpServer.cpp"
+},
+{
+  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmymuduo_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\mymuduo.dir\\http\\http_main.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\http\\http_main.cpp",
+  "file": "E:/daima/c++/network_pragram/my_muduo/http/http_main.cpp"
 }
 ]
