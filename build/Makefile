@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named mymuduo
+# Target rules for targets named muduo_mine
 
 # Build rule for target.
-mymuduo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 mymuduo
-.PHONY : mymuduo
+muduo_mine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 muduo_mine
+.PHONY : muduo_mine
 
 # fast build rule for target.
-mymuduo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/build
-.PHONY : mymuduo/fast
+muduo_mine/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/build
+.PHONY : muduo_mine/fast
 
 Acceptor.obj: Acceptor.cpp.obj
 .PHONY : Acceptor.obj
 
 # target to build an object file
 Acceptor.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Acceptor.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/Acceptor.cpp.obj
 .PHONY : Acceptor.cpp.obj
 
 Acceptor.i: Acceptor.cpp.i
@@ -141,7 +141,7 @@ Acceptor.i: Acceptor.cpp.i
 
 # target to preprocess a source file
 Acceptor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Acceptor.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/Acceptor.cpp.i
 .PHONY : Acceptor.cpp.i
 
 Acceptor.s: Acceptor.cpp.s
@@ -149,7 +149,7 @@ Acceptor.s: Acceptor.cpp.s
 
 # target to generate assembly for a file
 Acceptor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Acceptor.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/Acceptor.cpp.s
 .PHONY : Acceptor.cpp.s
 
 Buffer.obj: Buffer.cpp.obj
@@ -157,7 +157,7 @@ Buffer.obj: Buffer.cpp.obj
 
 # target to build an object file
 Buffer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Buffer.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/Buffer.cpp.obj
 .PHONY : Buffer.cpp.obj
 
 Buffer.i: Buffer.cpp.i
@@ -165,7 +165,7 @@ Buffer.i: Buffer.cpp.i
 
 # target to preprocess a source file
 Buffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Buffer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/Buffer.cpp.i
 .PHONY : Buffer.cpp.i
 
 Buffer.s: Buffer.cpp.s
@@ -173,7 +173,7 @@ Buffer.s: Buffer.cpp.s
 
 # target to generate assembly for a file
 Buffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Buffer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/Buffer.cpp.s
 .PHONY : Buffer.cpp.s
 
 Channel.obj: Channel.cpp.obj
@@ -181,7 +181,7 @@ Channel.obj: Channel.cpp.obj
 
 # target to build an object file
 Channel.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Channel.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/Channel.cpp.obj
 .PHONY : Channel.cpp.obj
 
 Channel.i: Channel.cpp.i
@@ -189,7 +189,7 @@ Channel.i: Channel.cpp.i
 
 # target to preprocess a source file
 Channel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Channel.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/Channel.cpp.i
 .PHONY : Channel.cpp.i
 
 Channel.s: Channel.cpp.s
@@ -197,7 +197,7 @@ Channel.s: Channel.cpp.s
 
 # target to generate assembly for a file
 Channel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Channel.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/Channel.cpp.s
 .PHONY : Channel.cpp.s
 
 CurrentThread.obj: CurrentThread.cpp.obj
@@ -205,7 +205,7 @@ CurrentThread.obj: CurrentThread.cpp.obj
 
 # target to build an object file
 CurrentThread.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/CurrentThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/CurrentThread.cpp.obj
 .PHONY : CurrentThread.cpp.obj
 
 CurrentThread.i: CurrentThread.cpp.i
@@ -213,7 +213,7 @@ CurrentThread.i: CurrentThread.cpp.i
 
 # target to preprocess a source file
 CurrentThread.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/CurrentThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/CurrentThread.cpp.i
 .PHONY : CurrentThread.cpp.i
 
 CurrentThread.s: CurrentThread.cpp.s
@@ -221,7 +221,7 @@ CurrentThread.s: CurrentThread.cpp.s
 
 # target to generate assembly for a file
 CurrentThread.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/CurrentThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/CurrentThread.cpp.s
 .PHONY : CurrentThread.cpp.s
 
 DefaultPoller.obj: DefaultPoller.cpp.obj
@@ -229,7 +229,7 @@ DefaultPoller.obj: DefaultPoller.cpp.obj
 
 # target to build an object file
 DefaultPoller.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/DefaultPoller.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/DefaultPoller.cpp.obj
 .PHONY : DefaultPoller.cpp.obj
 
 DefaultPoller.i: DefaultPoller.cpp.i
@@ -237,7 +237,7 @@ DefaultPoller.i: DefaultPoller.cpp.i
 
 # target to preprocess a source file
 DefaultPoller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/DefaultPoller.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/DefaultPoller.cpp.i
 .PHONY : DefaultPoller.cpp.i
 
 DefaultPoller.s: DefaultPoller.cpp.s
@@ -245,7 +245,7 @@ DefaultPoller.s: DefaultPoller.cpp.s
 
 # target to generate assembly for a file
 DefaultPoller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/DefaultPoller.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/DefaultPoller.cpp.s
 .PHONY : DefaultPoller.cpp.s
 
 EPollPoller.obj: EPollPoller.cpp.obj
@@ -253,7 +253,7 @@ EPollPoller.obj: EPollPoller.cpp.obj
 
 # target to build an object file
 EPollPoller.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/EPollPoller.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/EPollPoller.cpp.obj
 .PHONY : EPollPoller.cpp.obj
 
 EPollPoller.i: EPollPoller.cpp.i
@@ -261,7 +261,7 @@ EPollPoller.i: EPollPoller.cpp.i
 
 # target to preprocess a source file
 EPollPoller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/EPollPoller.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/EPollPoller.cpp.i
 .PHONY : EPollPoller.cpp.i
 
 EPollPoller.s: EPollPoller.cpp.s
@@ -269,7 +269,7 @@ EPollPoller.s: EPollPoller.cpp.s
 
 # target to generate assembly for a file
 EPollPoller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/EPollPoller.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/EPollPoller.cpp.s
 .PHONY : EPollPoller.cpp.s
 
 EventLoop.obj: EventLoop.cpp.obj
@@ -277,7 +277,7 @@ EventLoop.obj: EventLoop.cpp.obj
 
 # target to build an object file
 EventLoop.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/EventLoop.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/EventLoop.cpp.obj
 .PHONY : EventLoop.cpp.obj
 
 EventLoop.i: EventLoop.cpp.i
@@ -285,7 +285,7 @@ EventLoop.i: EventLoop.cpp.i
 
 # target to preprocess a source file
 EventLoop.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/EventLoop.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/EventLoop.cpp.i
 .PHONY : EventLoop.cpp.i
 
 EventLoop.s: EventLoop.cpp.s
@@ -293,7 +293,7 @@ EventLoop.s: EventLoop.cpp.s
 
 # target to generate assembly for a file
 EventLoop.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/EventLoop.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/EventLoop.cpp.s
 .PHONY : EventLoop.cpp.s
 
 EventLoopThread.obj: EventLoopThread.cpp.obj
@@ -301,7 +301,7 @@ EventLoopThread.obj: EventLoopThread.cpp.obj
 
 # target to build an object file
 EventLoopThread.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/EventLoopThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/EventLoopThread.cpp.obj
 .PHONY : EventLoopThread.cpp.obj
 
 EventLoopThread.i: EventLoopThread.cpp.i
@@ -309,7 +309,7 @@ EventLoopThread.i: EventLoopThread.cpp.i
 
 # target to preprocess a source file
 EventLoopThread.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/EventLoopThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/EventLoopThread.cpp.i
 .PHONY : EventLoopThread.cpp.i
 
 EventLoopThread.s: EventLoopThread.cpp.s
@@ -317,7 +317,7 @@ EventLoopThread.s: EventLoopThread.cpp.s
 
 # target to generate assembly for a file
 EventLoopThread.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/EventLoopThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/EventLoopThread.cpp.s
 .PHONY : EventLoopThread.cpp.s
 
 EventLoopThreadPool.obj: EventLoopThreadPool.cpp.obj
@@ -325,7 +325,7 @@ EventLoopThreadPool.obj: EventLoopThreadPool.cpp.obj
 
 # target to build an object file
 EventLoopThreadPool.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/EventLoopThreadPool.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/EventLoopThreadPool.cpp.obj
 .PHONY : EventLoopThreadPool.cpp.obj
 
 EventLoopThreadPool.i: EventLoopThreadPool.cpp.i
@@ -333,7 +333,7 @@ EventLoopThreadPool.i: EventLoopThreadPool.cpp.i
 
 # target to preprocess a source file
 EventLoopThreadPool.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/EventLoopThreadPool.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/EventLoopThreadPool.cpp.i
 .PHONY : EventLoopThreadPool.cpp.i
 
 EventLoopThreadPool.s: EventLoopThreadPool.cpp.s
@@ -341,7 +341,7 @@ EventLoopThreadPool.s: EventLoopThreadPool.cpp.s
 
 # target to generate assembly for a file
 EventLoopThreadPool.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/EventLoopThreadPool.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/EventLoopThreadPool.cpp.s
 .PHONY : EventLoopThreadPool.cpp.s
 
 InetAddress.obj: InetAddress.cpp.obj
@@ -349,7 +349,7 @@ InetAddress.obj: InetAddress.cpp.obj
 
 # target to build an object file
 InetAddress.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/InetAddress.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/InetAddress.cpp.obj
 .PHONY : InetAddress.cpp.obj
 
 InetAddress.i: InetAddress.cpp.i
@@ -357,7 +357,7 @@ InetAddress.i: InetAddress.cpp.i
 
 # target to preprocess a source file
 InetAddress.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/InetAddress.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/InetAddress.cpp.i
 .PHONY : InetAddress.cpp.i
 
 InetAddress.s: InetAddress.cpp.s
@@ -365,7 +365,7 @@ InetAddress.s: InetAddress.cpp.s
 
 # target to generate assembly for a file
 InetAddress.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/InetAddress.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/InetAddress.cpp.s
 .PHONY : InetAddress.cpp.s
 
 Poller.obj: Poller.cpp.obj
@@ -373,7 +373,7 @@ Poller.obj: Poller.cpp.obj
 
 # target to build an object file
 Poller.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Poller.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/Poller.cpp.obj
 .PHONY : Poller.cpp.obj
 
 Poller.i: Poller.cpp.i
@@ -381,7 +381,7 @@ Poller.i: Poller.cpp.i
 
 # target to preprocess a source file
 Poller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Poller.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/Poller.cpp.i
 .PHONY : Poller.cpp.i
 
 Poller.s: Poller.cpp.s
@@ -389,7 +389,7 @@ Poller.s: Poller.cpp.s
 
 # target to generate assembly for a file
 Poller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Poller.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/Poller.cpp.s
 .PHONY : Poller.cpp.s
 
 Socket.obj: Socket.cpp.obj
@@ -397,7 +397,7 @@ Socket.obj: Socket.cpp.obj
 
 # target to build an object file
 Socket.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Socket.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/Socket.cpp.obj
 .PHONY : Socket.cpp.obj
 
 Socket.i: Socket.cpp.i
@@ -405,7 +405,7 @@ Socket.i: Socket.cpp.i
 
 # target to preprocess a source file
 Socket.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Socket.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/Socket.cpp.i
 .PHONY : Socket.cpp.i
 
 Socket.s: Socket.cpp.s
@@ -413,7 +413,7 @@ Socket.s: Socket.cpp.s
 
 # target to generate assembly for a file
 Socket.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Socket.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/Socket.cpp.s
 .PHONY : Socket.cpp.s
 
 TcpConnection.obj: TcpConnection.cpp.obj
@@ -421,7 +421,7 @@ TcpConnection.obj: TcpConnection.cpp.obj
 
 # target to build an object file
 TcpConnection.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/TcpConnection.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/TcpConnection.cpp.obj
 .PHONY : TcpConnection.cpp.obj
 
 TcpConnection.i: TcpConnection.cpp.i
@@ -429,7 +429,7 @@ TcpConnection.i: TcpConnection.cpp.i
 
 # target to preprocess a source file
 TcpConnection.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/TcpConnection.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/TcpConnection.cpp.i
 .PHONY : TcpConnection.cpp.i
 
 TcpConnection.s: TcpConnection.cpp.s
@@ -437,7 +437,7 @@ TcpConnection.s: TcpConnection.cpp.s
 
 # target to generate assembly for a file
 TcpConnection.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/TcpConnection.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/TcpConnection.cpp.s
 .PHONY : TcpConnection.cpp.s
 
 TcpServer.obj: TcpServer.cpp.obj
@@ -445,7 +445,7 @@ TcpServer.obj: TcpServer.cpp.obj
 
 # target to build an object file
 TcpServer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/TcpServer.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/TcpServer.cpp.obj
 .PHONY : TcpServer.cpp.obj
 
 TcpServer.i: TcpServer.cpp.i
@@ -453,7 +453,7 @@ TcpServer.i: TcpServer.cpp.i
 
 # target to preprocess a source file
 TcpServer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/TcpServer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/TcpServer.cpp.i
 .PHONY : TcpServer.cpp.i
 
 TcpServer.s: TcpServer.cpp.s
@@ -461,7 +461,7 @@ TcpServer.s: TcpServer.cpp.s
 
 # target to generate assembly for a file
 TcpServer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/TcpServer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/TcpServer.cpp.s
 .PHONY : TcpServer.cpp.s
 
 Thread.obj: Thread.cpp.obj
@@ -469,7 +469,7 @@ Thread.obj: Thread.cpp.obj
 
 # target to build an object file
 Thread.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Thread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/Thread.cpp.obj
 .PHONY : Thread.cpp.obj
 
 Thread.i: Thread.cpp.i
@@ -477,7 +477,7 @@ Thread.i: Thread.cpp.i
 
 # target to preprocess a source file
 Thread.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Thread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/Thread.cpp.i
 .PHONY : Thread.cpp.i
 
 Thread.s: Thread.cpp.s
@@ -485,7 +485,7 @@ Thread.s: Thread.cpp.s
 
 # target to generate assembly for a file
 Thread.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/Thread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/Thread.cpp.s
 .PHONY : Thread.cpp.s
 
 TimeStamp.obj: TimeStamp.cpp.obj
@@ -493,7 +493,7 @@ TimeStamp.obj: TimeStamp.cpp.obj
 
 # target to build an object file
 TimeStamp.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/TimeStamp.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/TimeStamp.cpp.obj
 .PHONY : TimeStamp.cpp.obj
 
 TimeStamp.i: TimeStamp.cpp.i
@@ -501,7 +501,7 @@ TimeStamp.i: TimeStamp.cpp.i
 
 # target to preprocess a source file
 TimeStamp.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/TimeStamp.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/TimeStamp.cpp.i
 .PHONY : TimeStamp.cpp.i
 
 TimeStamp.s: TimeStamp.cpp.s
@@ -509,7 +509,7 @@ TimeStamp.s: TimeStamp.cpp.s
 
 # target to generate assembly for a file
 TimeStamp.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/TimeStamp.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/TimeStamp.cpp.s
 .PHONY : TimeStamp.cpp.s
 
 hello_world.obj: hello_world.cpp.obj
@@ -517,7 +517,7 @@ hello_world.obj: hello_world.cpp.obj
 
 # target to build an object file
 hello_world.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/hello_world.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/hello_world.cpp.obj
 .PHONY : hello_world.cpp.obj
 
 hello_world.i: hello_world.cpp.i
@@ -525,7 +525,7 @@ hello_world.i: hello_world.cpp.i
 
 # target to preprocess a source file
 hello_world.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/hello_world.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/hello_world.cpp.i
 .PHONY : hello_world.cpp.i
 
 hello_world.s: hello_world.cpp.s
@@ -533,7 +533,7 @@ hello_world.s: hello_world.cpp.s
 
 # target to generate assembly for a file
 hello_world.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/hello_world.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/hello_world.cpp.s
 .PHONY : hello_world.cpp.s
 
 http/HttpRequest.obj: http/HttpRequest.cpp.obj
@@ -541,7 +541,7 @@ http/HttpRequest.obj: http/HttpRequest.cpp.obj
 
 # target to build an object file
 http/HttpRequest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/HttpRequest.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/http/HttpRequest.cpp.obj
 .PHONY : http/HttpRequest.cpp.obj
 
 http/HttpRequest.i: http/HttpRequest.cpp.i
@@ -549,7 +549,7 @@ http/HttpRequest.i: http/HttpRequest.cpp.i
 
 # target to preprocess a source file
 http/HttpRequest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/HttpRequest.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/http/HttpRequest.cpp.i
 .PHONY : http/HttpRequest.cpp.i
 
 http/HttpRequest.s: http/HttpRequest.cpp.s
@@ -557,7 +557,7 @@ http/HttpRequest.s: http/HttpRequest.cpp.s
 
 # target to generate assembly for a file
 http/HttpRequest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/HttpRequest.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/http/HttpRequest.cpp.s
 .PHONY : http/HttpRequest.cpp.s
 
 http/HttpResponse.obj: http/HttpResponse.cpp.obj
@@ -565,7 +565,7 @@ http/HttpResponse.obj: http/HttpResponse.cpp.obj
 
 # target to build an object file
 http/HttpResponse.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/HttpResponse.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/http/HttpResponse.cpp.obj
 .PHONY : http/HttpResponse.cpp.obj
 
 http/HttpResponse.i: http/HttpResponse.cpp.i
@@ -573,7 +573,7 @@ http/HttpResponse.i: http/HttpResponse.cpp.i
 
 # target to preprocess a source file
 http/HttpResponse.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/HttpResponse.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/http/HttpResponse.cpp.i
 .PHONY : http/HttpResponse.cpp.i
 
 http/HttpResponse.s: http/HttpResponse.cpp.s
@@ -581,7 +581,7 @@ http/HttpResponse.s: http/HttpResponse.cpp.s
 
 # target to generate assembly for a file
 http/HttpResponse.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/HttpResponse.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/http/HttpResponse.cpp.s
 .PHONY : http/HttpResponse.cpp.s
 
 http/HttpServer.obj: http/HttpServer.cpp.obj
@@ -589,7 +589,7 @@ http/HttpServer.obj: http/HttpServer.cpp.obj
 
 # target to build an object file
 http/HttpServer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/HttpServer.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/http/HttpServer.cpp.obj
 .PHONY : http/HttpServer.cpp.obj
 
 http/HttpServer.i: http/HttpServer.cpp.i
@@ -597,7 +597,7 @@ http/HttpServer.i: http/HttpServer.cpp.i
 
 # target to preprocess a source file
 http/HttpServer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/HttpServer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/http/HttpServer.cpp.i
 .PHONY : http/HttpServer.cpp.i
 
 http/HttpServer.s: http/HttpServer.cpp.s
@@ -605,7 +605,7 @@ http/HttpServer.s: http/HttpServer.cpp.s
 
 # target to generate assembly for a file
 http/HttpServer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/HttpServer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/http/HttpServer.cpp.s
 .PHONY : http/HttpServer.cpp.s
 
 http/http_main.obj: http/http_main.cpp.obj
@@ -613,7 +613,7 @@ http/http_main.obj: http/http_main.cpp.obj
 
 # target to build an object file
 http/http_main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/http_main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/http/http_main.cpp.obj
 .PHONY : http/http_main.cpp.obj
 
 http/http_main.i: http/http_main.cpp.i
@@ -621,7 +621,7 @@ http/http_main.i: http/http_main.cpp.i
 
 # target to preprocess a source file
 http/http_main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/http_main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/http/http_main.cpp.i
 .PHONY : http/http_main.cpp.i
 
 http/http_main.s: http/http_main.cpp.s
@@ -629,7 +629,7 @@ http/http_main.s: http/http_main.cpp.s
 
 # target to generate assembly for a file
 http/http_main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/http/http_main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/http/http_main.cpp.s
 .PHONY : http/http_main.cpp.s
 
 logger.obj: logger.cpp.obj
@@ -637,7 +637,7 @@ logger.obj: logger.cpp.obj
 
 # target to build an object file
 logger.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/logger.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/logger.cpp.obj
 .PHONY : logger.cpp.obj
 
 logger.i: logger.cpp.i
@@ -645,7 +645,7 @@ logger.i: logger.cpp.i
 
 # target to preprocess a source file
 logger.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/logger.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/logger.cpp.i
 .PHONY : logger.cpp.i
 
 logger.s: logger.cpp.s
@@ -653,7 +653,7 @@ logger.s: logger.cpp.s
 
 # target to generate assembly for a file
 logger.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mymuduo.dir\build.make CMakeFiles/mymuduo.dir/logger.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\muduo_mine.dir\build.make CMakeFiles/muduo_mine.dir/logger.cpp.s
 .PHONY : logger.cpp.s
 
 # Help Target
@@ -664,7 +664,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... mymuduo
+	@echo ... muduo_mine
 	@echo ... Acceptor.obj
 	@echo ... Acceptor.i
 	@echo ... Acceptor.s

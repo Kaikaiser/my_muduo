@@ -2,13 +2,13 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "E:/daima/c++/network_pragram/my_muduo/lib/libmymuduo.dll"
+			"path" : "E:/daima/c++/network_pragram/my_muduo/lib/libmuduo_mine.dll"
 		},
 		{
-			"path" : "E:/daima/c++/network_pragram/my_muduo/lib/libmymuduo.dll.a"
+			"path" : "E:/daima/c++/network_pragram/my_muduo/lib/libmuduo_mine.dll.a"
 		},
 		{
-			"path" : "E:/daima/c++/network_pragram/my_muduo/lib/libmymuduo.pdb"
+			"path" : "E:/daima/c++/network_pragram/my_muduo/lib/libmuduo_mine.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -47,7 +47,7 @@
 			"defines" : 
 			[
 				{
-					"define" : "mymuduo_EXPORTS"
+					"define" : "muduo_mine_EXPORTS"
 				}
 			],
 			"language" : "CXX",
@@ -78,7 +78,7 @@
 			]
 		}
 	],
-	"id" : "mymuduo::@6890427a1f51a3e7e1df",
+	"id" : "muduo_mine::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -94,8 +94,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "mymuduo",
-	"nameOnDisk" : "libmymuduo.dll",
+	"name" : "muduo_mine",
+	"nameOnDisk" : "libmuduo_mine.dll",
 	"paths" : 
 	{
 		"build" : ".",
