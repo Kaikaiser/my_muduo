@@ -14,6 +14,3 @@ aux_source_directory(. SRC_LIST)
 
 #编译生成动态库muduomy
 add_library(muduomy SHARED ${SRC_LIST})
-
-#编译生成动态库muduomy
-add_library(muduomy SHARED ${SRC_LIST})
