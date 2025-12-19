@@ -1,8 +1,8 @@
-# Install script for directory: E:/daima/c++/network_pragram/my_muduo
+# Install script for directory: E:/daima/c++/network_pragram/muduomy
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/muduo_mine")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/muduomy")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/daima/c++/network_pragram/my_muduo/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/daima/c++/network_pragram/muduomy/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

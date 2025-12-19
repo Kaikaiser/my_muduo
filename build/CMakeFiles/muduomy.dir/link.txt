@@ -1,0 +1,3 @@
+D:\app\vs_buildtools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E rm -f CMakeFiles\muduomy.dir/objects.a
+D:\app\vscode\mingw\bin\ar.exe cr CMakeFiles\muduomy.dir/objects.a @CMakeFiles\muduomy.dir\objects1.rsp
+D:\app\vscode\mingw\bin\g++.exe  -g -std=c++11 -fPIC -g -shared -o ..\lib\libmuduomy.dll -Wl,--out-implib,..\lib\libmuduomy.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\muduomy.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\muduomy.dir\linklibs.rsp

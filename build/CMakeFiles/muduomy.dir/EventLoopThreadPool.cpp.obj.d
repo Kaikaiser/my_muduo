@@ -1,33 +1,14 @@
-CMakeFiles/muduo_mine.dir/Poller.cpp.obj: \
- E:\daima\c++\network_pragram\my_muduo\Poller.cpp \
- E:\daima\c++\network_pragram\my_muduo\Poller.h \
- E:\daima\c++\network_pragram\my_muduo\noncopyable.h \
- E:\daima\c++\network_pragram\my_muduo\TimeStamp.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
+CMakeFiles/muduomy.dir/EventLoopThreadPool.cpp.obj: \
+ E:\daima\c++\network_pragram\muduomy\EventLoopThreadPool.cpp \
+ E:\daima\c++\network_pragram\muduomy\EventLoopThreadPool.h \
+ E:\daima\c++\network_pragram\muduomy\noncopyable.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar \
- D:/app/vscode/mingw/x86_64-w64-mingw32/include/wchar.h \
- D:/app/vscode/mingw/x86_64-w64-mingw32/include/crtdefs.h \
- D:/app/vscode/mingw/x86_64-w64-mingw32/include/_mingw.h \
- D:/app/vscode/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
- D:/app/vscode/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
- D:/app/vscode/mingw/x86_64-w64-mingw32/include/vadefs.h \
- D:/app/vscode/mingw/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
- D:/app/vscode/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
- D:/app/vscode/mingw/x86_64-w64-mingw32/include/_mingw_print_push.h \
- D:/app/vscode/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
- D:/app/vscode/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h \
- D:/app/vscode/mingw/x86_64-w64-mingw32/include/swprintf.inl \
- D:/app/vscode/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
- D:/app/vscode/mingw/x86_64-w64-mingw32/include/_mingw_print_pop.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
@@ -35,20 +16,35 @@ CMakeFiles/muduo_mine.dir/Poller.cpp.obj: \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
  D:/app/vscode/mingw/x86_64-w64-mingw32/include/stddef.h \
+ D:/app/vscode/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+ D:/app/vscode/mingw/x86_64-w64-mingw32/include/_mingw.h \
+ D:/app/vscode/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+ D:/app/vscode/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ D:/app/vscode/mingw/x86_64-w64-mingw32/include/vadefs.h \
+ D:/app/vscode/mingw/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+ D:/app/vscode/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tuple \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h \
@@ -56,18 +52,34 @@ CMakeFiles/muduo_mine.dir/Poller.cpp.obj: \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar \
+ D:/app/vscode/mingw/x86_64-w64-mingw32/include/wchar.h \
+ D:/app/vscode/mingw/x86_64-w64-mingw32/include/_mingw_print_push.h \
+ D:/app/vscode/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ D:/app/vscode/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h \
+ D:/app/vscode/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+ D:/app/vscode/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+ D:/app/vscode/mingw/x86_64-w64-mingw32/include/_mingw_print_pop.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
  D:/app/vscode/mingw/x86_64-w64-mingw32/include/stdint.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/localefwd.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
  D:/app/vscode/mingw/x86_64-w64-mingw32/include/locale.h \
  D:/app/vscode/mingw/x86_64-w64-mingw32/include/stdio.h \
  D:/app/vscode/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
  D:/app/vscode/mingw/x86_64-w64-mingw32/include/ctype.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream_insert.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
@@ -86,18 +98,6 @@ CMakeFiles/muduo_mine.dir/Poller.cpp.obj: \
  D:/app/vscode/mingw/x86_64-w64-mingw32/include/pthread_compat.h \
  D:/app/vscode/mingw/x86_64-w64-mingw32/include/pthread_unistd.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream_insert.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h \
@@ -111,45 +111,16 @@ CMakeFiles/muduo_mine.dir/Poller.cpp.obj: \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype \
- D:/app/vscode/mingw/x86_64-w64-mingw32/include/wctype.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/refwrap.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/unordered_map \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/aligned_buffer.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable_policy.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tuple \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_map.h \
- E:\daima\c++\network_pragram\my_muduo\Channel.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/refwrap.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/memory \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_raw_storage_iter.h \
@@ -158,7 +129,30 @@ CMakeFiles/muduo_mine.dir/Poller.cpp.obj: \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_base.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocated_ptr.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/aligned_buffer.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_atomic.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_base.h \
  D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_lockfree_defines.h \
- D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/auto_ptr.h
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/auto_ptr.h \
+ E:\daima\c++\network_pragram\muduomy\EventLoopThread.h \
+ E:\daima\c++\network_pragram\muduomy\Thread.h \
+ D:/app/vscode/mingw/x86_64-w64-mingw32/include/unistd.h \
+ D:/app/vscode/mingw/x86_64-w64-mingw32/include/io.h \
+ D:/app/vscode/mingw/x86_64-w64-mingw32/include/string.h \
+ D:/app/vscode/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ D:/app/vscode/mingw/x86_64-w64-mingw32/include/getopt.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/thread \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/chrono \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ratio \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
+ D:/app/vscode/mingw/x86_64-w64-mingw32/include/time.h \
+ D:/app/vscode/mingw/x86_64-w64-mingw32/include/_timeval.h \
+ D:/app/vscode/mingw/x86_64-w64-mingw32/include/pthread_time.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/parse_numbers.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/atomic \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/mutex \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_mutex.h \
+ D:/app/vscode/mingw/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/condition_variable

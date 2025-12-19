@@ -26,7 +26,7 @@
 					[
 						0
 					],
-					"name" : "muduo_mine",
+					"name" : "muduomy",
 					"targetIndexes" : 
 					[
 						0
@@ -37,9 +37,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "muduo_mine::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-muduo_mine-Debug-bdca17fa263ddb91da04.json",
-					"name" : "muduo_mine",
+					"id" : "muduomy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-muduomy-Debug-11be11f78a595a4d0a0d.json",
+					"name" : "muduomy",
 					"projectIndex" : 0
 				}
 			]
@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/daima/c++/network_pragram/my_muduo/build",
-		"source" : "E:/daima/c++/network_pragram/my_muduo"
+		"build" : "E:/daima/c++/network_pragram/muduomy/build",
+		"source" : "E:/daima/c++/network_pragram/muduomy"
 	},
 	"version" : 
 	{

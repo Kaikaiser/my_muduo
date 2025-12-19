@@ -1,112 +1,87 @@
 [
 {
-  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduo_mine_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduo_mine.dir\\Acceptor.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\Acceptor.cpp",
-  "file": "E:/daima/c++/network_pragram/my_muduo/Acceptor.cpp"
+  "directory": "E:/daima/c++/network_pragram/muduomy/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\Acceptor.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\Acceptor.cpp",
+  "file": "E:/daima/c++/network_pragram/muduomy/Acceptor.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduo_mine_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduo_mine.dir\\Buffer.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\Buffer.cpp",
-  "file": "E:/daima/c++/network_pragram/my_muduo/Buffer.cpp"
+  "directory": "E:/daima/c++/network_pragram/muduomy/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\Buffer.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\Buffer.cpp",
+  "file": "E:/daima/c++/network_pragram/muduomy/Buffer.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduo_mine_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduo_mine.dir\\Channel.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\Channel.cpp",
-  "file": "E:/daima/c++/network_pragram/my_muduo/Channel.cpp"
+  "directory": "E:/daima/c++/network_pragram/muduomy/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\Channel.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\Channel.cpp",
+  "file": "E:/daima/c++/network_pragram/muduomy/Channel.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduo_mine_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduo_mine.dir\\CurrentThread.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\CurrentThread.cpp",
-  "file": "E:/daima/c++/network_pragram/my_muduo/CurrentThread.cpp"
+  "directory": "E:/daima/c++/network_pragram/muduomy/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\CurrentThread.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\CurrentThread.cpp",
+  "file": "E:/daima/c++/network_pragram/muduomy/CurrentThread.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduo_mine_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduo_mine.dir\\DefaultPoller.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\DefaultPoller.cpp",
-  "file": "E:/daima/c++/network_pragram/my_muduo/DefaultPoller.cpp"
+  "directory": "E:/daima/c++/network_pragram/muduomy/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\DefaultPoller.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\DefaultPoller.cpp",
+  "file": "E:/daima/c++/network_pragram/muduomy/DefaultPoller.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduo_mine_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduo_mine.dir\\EPollPoller.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\EPollPoller.cpp",
-  "file": "E:/daima/c++/network_pragram/my_muduo/EPollPoller.cpp"
+  "directory": "E:/daima/c++/network_pragram/muduomy/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\EPollPoller.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\EPollPoller.cpp",
+  "file": "E:/daima/c++/network_pragram/muduomy/EPollPoller.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduo_mine_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduo_mine.dir\\EventLoop.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\EventLoop.cpp",
-  "file": "E:/daima/c++/network_pragram/my_muduo/EventLoop.cpp"
+  "directory": "E:/daima/c++/network_pragram/muduomy/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\EventLoop.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\EventLoop.cpp",
+  "file": "E:/daima/c++/network_pragram/muduomy/EventLoop.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduo_mine_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduo_mine.dir\\EventLoopThread.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\EventLoopThread.cpp",
-  "file": "E:/daima/c++/network_pragram/my_muduo/EventLoopThread.cpp"
+  "directory": "E:/daima/c++/network_pragram/muduomy/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\EventLoopThread.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\EventLoopThread.cpp",
+  "file": "E:/daima/c++/network_pragram/muduomy/EventLoopThread.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduo_mine_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduo_mine.dir\\EventLoopThreadPool.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\EventLoopThreadPool.cpp",
-  "file": "E:/daima/c++/network_pragram/my_muduo/EventLoopThreadPool.cpp"
+  "directory": "E:/daima/c++/network_pragram/muduomy/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\EventLoopThreadPool.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\EventLoopThreadPool.cpp",
+  "file": "E:/daima/c++/network_pragram/muduomy/EventLoopThreadPool.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduo_mine_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduo_mine.dir\\InetAddress.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\InetAddress.cpp",
-  "file": "E:/daima/c++/network_pragram/my_muduo/InetAddress.cpp"
+  "directory": "E:/daima/c++/network_pragram/muduomy/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\InetAddress.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\InetAddress.cpp",
+  "file": "E:/daima/c++/network_pragram/muduomy/InetAddress.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduo_mine_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduo_mine.dir\\Poller.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\Poller.cpp",
-  "file": "E:/daima/c++/network_pragram/my_muduo/Poller.cpp"
+  "directory": "E:/daima/c++/network_pragram/muduomy/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\Poller.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\Poller.cpp",
+  "file": "E:/daima/c++/network_pragram/muduomy/Poller.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduo_mine_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduo_mine.dir\\Socket.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\Socket.cpp",
-  "file": "E:/daima/c++/network_pragram/my_muduo/Socket.cpp"
+  "directory": "E:/daima/c++/network_pragram/muduomy/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\Socket.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\Socket.cpp",
+  "file": "E:/daima/c++/network_pragram/muduomy/Socket.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduo_mine_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduo_mine.dir\\TcpConnection.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\TcpConnection.cpp",
-  "file": "E:/daima/c++/network_pragram/my_muduo/TcpConnection.cpp"
+  "directory": "E:/daima/c++/network_pragram/muduomy/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\TcpConnection.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\TcpConnection.cpp",
+  "file": "E:/daima/c++/network_pragram/muduomy/TcpConnection.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduo_mine_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduo_mine.dir\\TcpServer.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\TcpServer.cpp",
-  "file": "E:/daima/c++/network_pragram/my_muduo/TcpServer.cpp"
+  "directory": "E:/daima/c++/network_pragram/muduomy/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\TcpServer.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\TcpServer.cpp",
+  "file": "E:/daima/c++/network_pragram/muduomy/TcpServer.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduo_mine_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduo_mine.dir\\Thread.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\Thread.cpp",
-  "file": "E:/daima/c++/network_pragram/my_muduo/Thread.cpp"
+  "directory": "E:/daima/c++/network_pragram/muduomy/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\Thread.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\Thread.cpp",
+  "file": "E:/daima/c++/network_pragram/muduomy/Thread.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduo_mine_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduo_mine.dir\\TimeStamp.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\TimeStamp.cpp",
-  "file": "E:/daima/c++/network_pragram/my_muduo/TimeStamp.cpp"
+  "directory": "E:/daima/c++/network_pragram/muduomy/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\TimeStamp.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\TimeStamp.cpp",
+  "file": "E:/daima/c++/network_pragram/muduomy/TimeStamp.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduo_mine_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduo_mine.dir\\hello_world.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\hello_world.cpp",
-  "file": "E:/daima/c++/network_pragram/my_muduo/hello_world.cpp"
-},
-{
-  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduo_mine_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduo_mine.dir\\logger.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\logger.cpp",
-  "file": "E:/daima/c++/network_pragram/my_muduo/logger.cpp"
-},
-{
-  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduo_mine_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduo_mine.dir\\http\\HttpRequest.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\http\\HttpRequest.cpp",
-  "file": "E:/daima/c++/network_pragram/my_muduo/http/HttpRequest.cpp"
-},
-{
-  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduo_mine_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduo_mine.dir\\http\\HttpResponse.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\http\\HttpResponse.cpp",
-  "file": "E:/daima/c++/network_pragram/my_muduo/http/HttpResponse.cpp"
-},
-{
-  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduo_mine_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduo_mine.dir\\http\\HttpServer.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\http\\HttpServer.cpp",
-  "file": "E:/daima/c++/network_pragram/my_muduo/http/HttpServer.cpp"
-},
-{
-  "directory": "E:/daima/c++/network_pragram/my_muduo/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduo_mine_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduo_mine.dir\\http\\http_main.cpp.obj -c E:\\daima\\c++\\network_pragram\\my_muduo\\http\\http_main.cpp",
-  "file": "E:/daima/c++/network_pragram/my_muduo/http/http_main.cpp"
+  "directory": "E:/daima/c++/network_pragram/muduomy/build",
+  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\logger.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\logger.cpp",
+  "file": "E:/daima/c++/network_pragram/muduomy/logger.cpp"
 }
 ]
