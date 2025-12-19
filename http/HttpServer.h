@@ -49,3 +49,4 @@ private:
     HttpCallback httpCallback_; // 上层业务回调
 };
 
+
