@@ -36,7 +36,6 @@ public:
     int fd() const { return fd_;}
     int events() const { return events_;}
     void set_revents(int revt) { revents_ = revt;}
-    bool isNoneEvent() const { return events_ == kNoneEvent;}
 
     // 设置fd相应的事件状态  |表示加入时间  &~表示移除事件
     void enableReading() { events_ |= kReadEvent; update(); }   // 加入读事件
@@ -51,7 +50,7 @@ public:
     bool isReading() const { return events_ & kReadEvent; }    // &用于判断是否有可读事件
 
     int index() const { return index_;}
-    void set_index(int idx) { return index_ = idx;} 
+    void set_index(int idx) { index_ = idx;} 
 
     // one loop per thread
     EventLoop* ownerLoop(){ return loop_; }

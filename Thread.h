@@ -19,7 +19,7 @@ public:
     bool started() const {return started_;}
     bool joined() const {return joined_;}
     pid_t tid() const {return tid_;}
-    const std::sting& name() const {return name_;}
+    const std::string& name() const {return name_;}
     static int numCreated() {return numCreated_;}
 
 private:
@@ -34,4 +34,4 @@ private:
     static std::atomic_int32_t numCreated_;
 
 
-}
+};
