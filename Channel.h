@@ -35,7 +35,7 @@ public:
 
     int fd() const { return fd_;}
     int events() const { return events_;}
-    int set_revents(int revt) { revents_ = revt;}
+    void set_revents(int revt) { revents_ = revt;}
     bool isNoneEvent() const { return events_ == kNoneEvent;}
 
     // 设置fd相应的事件状态  |表示加入时间  &~表示移除事件

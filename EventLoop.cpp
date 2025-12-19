@@ -76,7 +76,7 @@ void EventLoop::loop()
         for(Channel *channel : activeChannels_)
         {
             // Poller显示监听了哪些channel发生事件了，然后上报给EventLoop，通知channel处理相应的事件
-            channel->handlieEvent(pollReturnTime_);
+            channel->handleEvent(pollReturnTime_);
         }
         //执行当前EventLoop事件循环所进行的回调操作
         /*

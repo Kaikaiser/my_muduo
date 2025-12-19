@@ -42,7 +42,7 @@ void Channel::update()
 // 在Channel所属的EventLoop中，把当前Channel删除
 void Channel::remove()
 {
-    loop_->removeChannel(this); this是传入自己channel
+    loop_->removeChannel(this); // this是传入自己channel
 }
 // fd得到poller通知后，处理相应事件的函数
 void Channel::handleEvent(TimeStamp receiveTime)
