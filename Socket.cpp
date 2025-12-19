@@ -32,10 +32,14 @@ void Socket::listen()
 
 int Socket::accept(InetAddress *peeraddr)
 {
+    /**
+     * 问题1：acceptor参数不合法
+     * 问题2：对返回的connfd没有设置非阻塞处理
+    */
     sockaddr_in addr;
     socklen_t len = sizeof(addr);
     memset(&addr, 0, sizeof(addr));
-    int connfd = ::accept(sockfd_, (sockaddr*)&addr, &len);
+    int connfd = ::accept4(sockfd_, (sockaddr*)&addr, &len);
     if(connfd >= 0)
     {
         peeraddr->setSockAddr(addr);
