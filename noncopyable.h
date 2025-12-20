@@ -14,5 +14,4 @@ public:
 protected:
     noncopyable() = default;
     ~noncopyable() = default;
-
 };

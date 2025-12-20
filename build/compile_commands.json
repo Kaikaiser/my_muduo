@@ -1,87 +1,87 @@
 [
 {
-  "directory": "E:/daima/c++/network_pragram/muduomy/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\Acceptor.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\Acceptor.cpp",
-  "file": "E:/daima/c++/network_pragram/muduomy/Acceptor.cpp"
+  "directory": "/home/zahngkaiming/code/netproject/muduomy/build",
+  "command": "/usr/bin/g++  -Dmuduomy_EXPORTS -I/home/zahngkaiming/code/netproject/muduomy   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/muduomy.dir/Acceptor.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/Acceptor.cpp",
+  "file": "/home/zahngkaiming/code/netproject/muduomy/Acceptor.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/muduomy/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\Buffer.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\Buffer.cpp",
-  "file": "E:/daima/c++/network_pragram/muduomy/Buffer.cpp"
+  "directory": "/home/zahngkaiming/code/netproject/muduomy/build",
+  "command": "/usr/bin/g++  -Dmuduomy_EXPORTS -I/home/zahngkaiming/code/netproject/muduomy   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/muduomy.dir/Buffer.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/Buffer.cpp",
+  "file": "/home/zahngkaiming/code/netproject/muduomy/Buffer.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/muduomy/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\Channel.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\Channel.cpp",
-  "file": "E:/daima/c++/network_pragram/muduomy/Channel.cpp"
+  "directory": "/home/zahngkaiming/code/netproject/muduomy/build",
+  "command": "/usr/bin/g++  -Dmuduomy_EXPORTS -I/home/zahngkaiming/code/netproject/muduomy   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/muduomy.dir/Channel.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/Channel.cpp",
+  "file": "/home/zahngkaiming/code/netproject/muduomy/Channel.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/muduomy/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\CurrentThread.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\CurrentThread.cpp",
-  "file": "E:/daima/c++/network_pragram/muduomy/CurrentThread.cpp"
+  "directory": "/home/zahngkaiming/code/netproject/muduomy/build",
+  "command": "/usr/bin/g++  -Dmuduomy_EXPORTS -I/home/zahngkaiming/code/netproject/muduomy   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/muduomy.dir/CurrentThread.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/CurrentThread.cpp",
+  "file": "/home/zahngkaiming/code/netproject/muduomy/CurrentThread.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/muduomy/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\DefaultPoller.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\DefaultPoller.cpp",
-  "file": "E:/daima/c++/network_pragram/muduomy/DefaultPoller.cpp"
+  "directory": "/home/zahngkaiming/code/netproject/muduomy/build",
+  "command": "/usr/bin/g++  -Dmuduomy_EXPORTS -I/home/zahngkaiming/code/netproject/muduomy   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/muduomy.dir/DefaultPoller.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/DefaultPoller.cpp",
+  "file": "/home/zahngkaiming/code/netproject/muduomy/DefaultPoller.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/muduomy/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\EPollPoller.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\EPollPoller.cpp",
-  "file": "E:/daima/c++/network_pragram/muduomy/EPollPoller.cpp"
+  "directory": "/home/zahngkaiming/code/netproject/muduomy/build",
+  "command": "/usr/bin/g++  -Dmuduomy_EXPORTS -I/home/zahngkaiming/code/netproject/muduomy   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/muduomy.dir/EPollPoller.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/EPollPoller.cpp",
+  "file": "/home/zahngkaiming/code/netproject/muduomy/EPollPoller.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/muduomy/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\EventLoop.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\EventLoop.cpp",
-  "file": "E:/daima/c++/network_pragram/muduomy/EventLoop.cpp"
+  "directory": "/home/zahngkaiming/code/netproject/muduomy/build",
+  "command": "/usr/bin/g++  -Dmuduomy_EXPORTS -I/home/zahngkaiming/code/netproject/muduomy   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/muduomy.dir/EventLoop.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/EventLoop.cpp",
+  "file": "/home/zahngkaiming/code/netproject/muduomy/EventLoop.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/muduomy/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\EventLoopThread.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\EventLoopThread.cpp",
-  "file": "E:/daima/c++/network_pragram/muduomy/EventLoopThread.cpp"
+  "directory": "/home/zahngkaiming/code/netproject/muduomy/build",
+  "command": "/usr/bin/g++  -Dmuduomy_EXPORTS -I/home/zahngkaiming/code/netproject/muduomy   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/muduomy.dir/EventLoopThread.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/EventLoopThread.cpp",
+  "file": "/home/zahngkaiming/code/netproject/muduomy/EventLoopThread.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/muduomy/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\EventLoopThreadPool.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\EventLoopThreadPool.cpp",
-  "file": "E:/daima/c++/network_pragram/muduomy/EventLoopThreadPool.cpp"
+  "directory": "/home/zahngkaiming/code/netproject/muduomy/build",
+  "command": "/usr/bin/g++  -Dmuduomy_EXPORTS -I/home/zahngkaiming/code/netproject/muduomy   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/muduomy.dir/EventLoopThreadPool.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/EventLoopThreadPool.cpp",
+  "file": "/home/zahngkaiming/code/netproject/muduomy/EventLoopThreadPool.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/muduomy/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\InetAddress.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\InetAddress.cpp",
-  "file": "E:/daima/c++/network_pragram/muduomy/InetAddress.cpp"
+  "directory": "/home/zahngkaiming/code/netproject/muduomy/build",
+  "command": "/usr/bin/g++  -Dmuduomy_EXPORTS -I/home/zahngkaiming/code/netproject/muduomy   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/muduomy.dir/InetAddress.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/InetAddress.cpp",
+  "file": "/home/zahngkaiming/code/netproject/muduomy/InetAddress.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/muduomy/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\Poller.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\Poller.cpp",
-  "file": "E:/daima/c++/network_pragram/muduomy/Poller.cpp"
+  "directory": "/home/zahngkaiming/code/netproject/muduomy/build",
+  "command": "/usr/bin/g++  -Dmuduomy_EXPORTS -I/home/zahngkaiming/code/netproject/muduomy   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/muduomy.dir/Logger.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/Logger.cpp",
+  "file": "/home/zahngkaiming/code/netproject/muduomy/Logger.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/muduomy/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\Socket.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\Socket.cpp",
-  "file": "E:/daima/c++/network_pragram/muduomy/Socket.cpp"
+  "directory": "/home/zahngkaiming/code/netproject/muduomy/build",
+  "command": "/usr/bin/g++  -Dmuduomy_EXPORTS -I/home/zahngkaiming/code/netproject/muduomy   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/muduomy.dir/Poller.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/Poller.cpp",
+  "file": "/home/zahngkaiming/code/netproject/muduomy/Poller.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/muduomy/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\TcpConnection.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\TcpConnection.cpp",
-  "file": "E:/daima/c++/network_pragram/muduomy/TcpConnection.cpp"
+  "directory": "/home/zahngkaiming/code/netproject/muduomy/build",
+  "command": "/usr/bin/g++  -Dmuduomy_EXPORTS -I/home/zahngkaiming/code/netproject/muduomy   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/muduomy.dir/Socket.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/Socket.cpp",
+  "file": "/home/zahngkaiming/code/netproject/muduomy/Socket.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/muduomy/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\TcpServer.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\TcpServer.cpp",
-  "file": "E:/daima/c++/network_pragram/muduomy/TcpServer.cpp"
+  "directory": "/home/zahngkaiming/code/netproject/muduomy/build",
+  "command": "/usr/bin/g++  -Dmuduomy_EXPORTS -I/home/zahngkaiming/code/netproject/muduomy   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/muduomy.dir/TcpConnection.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/TcpConnection.cpp",
+  "file": "/home/zahngkaiming/code/netproject/muduomy/TcpConnection.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/muduomy/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\Thread.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\Thread.cpp",
-  "file": "E:/daima/c++/network_pragram/muduomy/Thread.cpp"
+  "directory": "/home/zahngkaiming/code/netproject/muduomy/build",
+  "command": "/usr/bin/g++  -Dmuduomy_EXPORTS -I/home/zahngkaiming/code/netproject/muduomy   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/muduomy.dir/TcpServer.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/TcpServer.cpp",
+  "file": "/home/zahngkaiming/code/netproject/muduomy/TcpServer.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/muduomy/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\TimeStamp.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\TimeStamp.cpp",
-  "file": "E:/daima/c++/network_pragram/muduomy/TimeStamp.cpp"
+  "directory": "/home/zahngkaiming/code/netproject/muduomy/build",
+  "command": "/usr/bin/g++  -Dmuduomy_EXPORTS -I/home/zahngkaiming/code/netproject/muduomy   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/muduomy.dir/Thread.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/Thread.cpp",
+  "file": "/home/zahngkaiming/code/netproject/muduomy/Thread.cpp"
 },
 {
-  "directory": "E:/daima/c++/network_pragram/muduomy/build",
-  "command": "D:\\app\\vscode\\mingw\\bin\\g++.exe -Dmuduomy_EXPORTS   -g -std=c++11 -fPIC -g -o CMakeFiles\\muduomy.dir\\logger.cpp.obj -c E:\\daima\\c++\\network_pragram\\muduomy\\logger.cpp",
-  "file": "E:/daima/c++/network_pragram/muduomy/logger.cpp"
+  "directory": "/home/zahngkaiming/code/netproject/muduomy/build",
+  "command": "/usr/bin/g++  -Dmuduomy_EXPORTS -I/home/zahngkaiming/code/netproject/muduomy   -g -std=c++11 -fPIC -g -fPIC   -o CMakeFiles/muduomy.dir/TimeStamp.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/TimeStamp.cpp",
+  "file": "/home/zahngkaiming/code/netproject/muduomy/TimeStamp.cpp"
 }
 ]

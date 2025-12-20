@@ -6,6 +6,7 @@
 #include <string>
 #include <functional>
 #include <strings.h>
+#include <cstring>
 
 static EventLoop* CheckLoopNotNull(EventLoop *loop)
 {

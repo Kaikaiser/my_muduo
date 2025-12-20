@@ -57,10 +57,11 @@ public:
     {
         readerIndex_ = writerIndex_ = kCheapPrepend;
     }
+
     // 把onMessage上报的Buffer函数 转换成string类型的数据返回
     std::string retrieveAllAsString()
     {
-        return retrieveAllAsString(readableBytes()); // 应用可读取数据的长度
+        return retrieveAsString(readableBytes());  // 应用可读取数据的长度
     }
 
     std::string retrieveAsString(size_t len)
@@ -91,7 +92,7 @@ public:
         return begin() + writerIndex_;
     }
 
-    char* beginWrite() const
+    const char* beginWrite() const
     {
         return begin() + writerIndex_;
     }
@@ -114,7 +115,7 @@ private:
     {
         if(writableBytes() + prependableBytes() < kCheapPrepend + len)
         {
-            buffer_.resize(writerIndex_ + len)
+            buffer_.resize(writerIndex_ + len);
         }
         else
         {

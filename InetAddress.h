@@ -1,9 +1,8 @@
 #pragma once 
-#include<netinet/inet.h>
-#include<arpa/inet.h>
-#include<socket.h>
-#include<netinet/in.h>
-#include<string>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+#include <netinet/in.h>
+#include <string>
 
 // 封装socket地址类型
 // 这里只支持ipv4 想要支持ipv6 回去看陈硕的源代码

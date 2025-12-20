@@ -22,6 +22,12 @@ EPollPoller::EPollPoller(EventLoop *loop)
     }
 }
 
+
+EPollPoller::~EPollPoller()
+{
+    ::close(epollfd_);
+}
+
 TimeStamp EPollPoller::poll(int timeoutMs, ChannelList *activeChannels)
 {
     // DEBUG输出更合理  INFO会降低效率
@@ -110,7 +116,18 @@ void EPollPoller::removeChannel(Channel *channel)  // -->eopll_ctl
     channel->set_index(kNew);
 }
 
-void EPollPoller::fillActiveChannels(int numEvents, ChannelList *activeChannels) const;
+// 填写活跃的channel的连接
+void EPollPoller::fillActiveChannels(int numEvents, ChannelList *activeChannels) const
+{
+    for(int i=0; i<numEvents; ++i)
+    {
+        // epoll_event的data.ptr为void*类型 要强制转换为Chanel*
+        Channel *channel = static_cast<Channel*>(events_[i].data.ptr);
+        channel->set_revents(events_[i].events);
+        activeChannels->push_back(channel); // EventLoop拿到了它的poller给它返回的所有的发生事件的channel列表 => activeChannels
+    }
+}
+
 // 更新channel通道 epoll_ctl_(add/del/mod)
 void EPollPoller::update(int operation, Channel *channel)
 {
@@ -122,8 +139,8 @@ void EPollPoller::update(int operation, Channel *channel)
     event.events = channel->events();
     event.data.fd = fd;
     event.data.ptr = channel;
-    int fd = channel->fd();
-    if(::epoll_ctl(epollfd_, operation, fd, &event)<0)
+
+    if(::epoll_ctl(epollfd_, operation, fd, &event) < 0)
     {
         if(operation == EPOLL_CTL_DEL)
         {
@@ -140,20 +157,3 @@ void EPollPoller::update(int operation, Channel *channel)
 
 }
 
-// 填写活跃的channel的连接
-void EPollPoller::fillActiveChannels(int numEvents, ChannelList *activeChannels) const
-{
-    for(int i=0; i<numEvents; ++i)
-    {
-        // epoll_event的data.ptr为void*类型 要强制转换为Chanel*
-        Channel *channel = static_cast<Channel*>(events_[i].data.ptr);
-        channel->set_revents(events_[i].events);
-        activeChannels.push_back(channel); // EventLoop拿到了它的poller给它返回的所有的发生事件的channel列表 => activeChannels
-    }
-}
-
-
-EPollPoller::~EPollPoller()
-{
-    ::close(epollfd_);
-}

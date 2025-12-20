@@ -3,7 +3,7 @@
 #include <semaphore.h>
 
 // 这里是使用atomic的拷贝构造 不能直接赋值
-static std::atomic_int32_t Thread::numCreated_(0);
+std::atomic_int Thread::numCreated_(0);
 // 参数默认值只出现一个地方即可
 Thread::Thread(ThreadFunc func , const std::string &name)
     : started_(false)
@@ -30,12 +30,12 @@ void Thread::start()  // 一个thread对象就是记录的一个新线程的详�
     sem_init(&sem, false, 0);
 
     // 开启线程
-    thread_ = std::shared_ptr<std::thread>((new std::thread)[&](){
+    thread_ = std::shared_ptr<std::thread>(new std::thread([&](){
         // 获取线程id
         tid_ = CurrentThread::tid();
         sem_post(&sem);
         func_();
-    });
+    }));
 
     // 这里必须等待上面新创建的线程获取tid值
     sem_wait(&sem);

@@ -2,6 +2,7 @@
 #include "Logger.h"
 #include "Channel.h"
 #include "EventLoop.h"
+#include "Socket.h"
 
 #include <errno.h>
 #include <memory>
@@ -171,7 +172,7 @@ void TcpConnection::connectDestroyed()
 void TcpConnection::handleRead(TimeStamp receiveTime)
 {
     int savedErrno = 0;
-    ssize_t n = inputBuffer_.readFd(channel_->fd(), savedErrno);
+    ssize_t n = inputBuffer_.readFd(channel_->fd(), &savedErrno);
     if(n > 0)
     {
         // 已经建立连接的用户， 有可读事件发生了，调用用户传入的回调操作onMessage
@@ -215,7 +216,7 @@ void TcpConnection::handleWrite()
         }
         else
         {
-            LOG_ERROR("TcpConnection::handleWrite")
+            LOG_ERROR("TcpConnection::handleWrite");
         }
     }
     else
@@ -239,9 +240,9 @@ void TcpConnection::handleClose()
 void TcpConnection::handleError()
 {
     int optval;
-    socklen_t option = sizeof(optval);
+    socklen_t optlen = sizeof(optval);
     int err = 0;
-    if(::getsockopt(channel_->fd(), SOL_SOCKET, SO_ERROR, &option) < 0)
+    if(::getsockopt(channel_->fd(), SOL_SOCKET, SO_ERROR, &optval, &optlen) < 0)
     {
         err = errno;
     }
