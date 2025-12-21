@@ -31,7 +31,7 @@ EPollPoller::~EPollPoller()
 TimeStamp EPollPoller::poll(int timeoutMs, ChannelList *activeChannels)
 {
     // DEBUG输出更合理  INFO会降低效率
-    LOG_INFO("func=%s => fd total count:%lu \n", __FUNCTION__, channels_.size());
+    LOG_INFO("func = %s => fd total count: %lu \n", __FUNCTION__, channels_.size());
     //LOG_DEBUG("func=%s => fd=%d events=%d index=%d \n", __FUNCTION__, channel->fd(), channel_>events(), channel->index());
     
     // vector的begin和end返回的是迭代器iterator 可以用*解引用后再取地址&拿到指针地址
@@ -72,7 +72,7 @@ TimeStamp EPollPoller::poll(int timeoutMs, ChannelList *activeChannels)
 void EPollPoller::updateChannel(Channel *channel)  // -->eopll_ctl
 {
     const int index = channel->index();
-    LOG_INFO("func=%s => fd=%d events=%d index=%d \n", __FUNCTION__, channel->fd(), channel->events(), channel->index());
+    LOG_INFO("func = %s => fd = %d events = %d index = %d \n", __FUNCTION__, channel->fd(), channel->events(), channel->index());
     if(index ==kNew || index == kDeleted)
     {
         if(index == kNew)
@@ -105,7 +105,7 @@ void EPollPoller::removeChannel(Channel *channel)  // -->eopll_ctl
     int fd = channel->fd();
     channels_.erase(fd);
 
-    LOG_INFO("func=%s => fd=%d  \n", __FUNCTION__, fd);
+    LOG_INFO("func = %s => fd = %d  \n", __FUNCTION__, fd);
     // 从epoll中删除
     int index = channel->index();
     if(index == kAdded)

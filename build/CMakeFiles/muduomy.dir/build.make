@@ -60,223 +60,223 @@ include CMakeFiles/muduomy.dir/flags.make
 CMakeFiles/muduomy.dir/Acceptor.cpp.o: CMakeFiles/muduomy.dir/flags.make
 CMakeFiles/muduomy.dir/Acceptor.cpp.o: ../Acceptor.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zahngkaiming/code/netproject/muduomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/muduomy.dir/Acceptor.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/Acceptor.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/Acceptor.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/Acceptor.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/Acceptor.cpp
 
 CMakeFiles/muduomy.dir/Acceptor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduomy.dir/Acceptor.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/Acceptor.cpp > CMakeFiles/muduomy.dir/Acceptor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/Acceptor.cpp > CMakeFiles/muduomy.dir/Acceptor.cpp.i
 
 CMakeFiles/muduomy.dir/Acceptor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduomy.dir/Acceptor.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/Acceptor.cpp -o CMakeFiles/muduomy.dir/Acceptor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/Acceptor.cpp -o CMakeFiles/muduomy.dir/Acceptor.cpp.s
 
 CMakeFiles/muduomy.dir/Buffer.cpp.o: CMakeFiles/muduomy.dir/flags.make
 CMakeFiles/muduomy.dir/Buffer.cpp.o: ../Buffer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zahngkaiming/code/netproject/muduomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/muduomy.dir/Buffer.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/Buffer.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/Buffer.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/Buffer.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/Buffer.cpp
 
 CMakeFiles/muduomy.dir/Buffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduomy.dir/Buffer.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/Buffer.cpp > CMakeFiles/muduomy.dir/Buffer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/Buffer.cpp > CMakeFiles/muduomy.dir/Buffer.cpp.i
 
 CMakeFiles/muduomy.dir/Buffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduomy.dir/Buffer.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/Buffer.cpp -o CMakeFiles/muduomy.dir/Buffer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/Buffer.cpp -o CMakeFiles/muduomy.dir/Buffer.cpp.s
 
 CMakeFiles/muduomy.dir/Channel.cpp.o: CMakeFiles/muduomy.dir/flags.make
 CMakeFiles/muduomy.dir/Channel.cpp.o: ../Channel.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zahngkaiming/code/netproject/muduomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/muduomy.dir/Channel.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/Channel.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/Channel.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/Channel.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/Channel.cpp
 
 CMakeFiles/muduomy.dir/Channel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduomy.dir/Channel.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/Channel.cpp > CMakeFiles/muduomy.dir/Channel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/Channel.cpp > CMakeFiles/muduomy.dir/Channel.cpp.i
 
 CMakeFiles/muduomy.dir/Channel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduomy.dir/Channel.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/Channel.cpp -o CMakeFiles/muduomy.dir/Channel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/Channel.cpp -o CMakeFiles/muduomy.dir/Channel.cpp.s
 
 CMakeFiles/muduomy.dir/CurrentThread.cpp.o: CMakeFiles/muduomy.dir/flags.make
 CMakeFiles/muduomy.dir/CurrentThread.cpp.o: ../CurrentThread.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zahngkaiming/code/netproject/muduomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/muduomy.dir/CurrentThread.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/CurrentThread.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/CurrentThread.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/CurrentThread.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/CurrentThread.cpp
 
 CMakeFiles/muduomy.dir/CurrentThread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduomy.dir/CurrentThread.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/CurrentThread.cpp > CMakeFiles/muduomy.dir/CurrentThread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/CurrentThread.cpp > CMakeFiles/muduomy.dir/CurrentThread.cpp.i
 
 CMakeFiles/muduomy.dir/CurrentThread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduomy.dir/CurrentThread.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/CurrentThread.cpp -o CMakeFiles/muduomy.dir/CurrentThread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/CurrentThread.cpp -o CMakeFiles/muduomy.dir/CurrentThread.cpp.s
 
 CMakeFiles/muduomy.dir/DefaultPoller.cpp.o: CMakeFiles/muduomy.dir/flags.make
 CMakeFiles/muduomy.dir/DefaultPoller.cpp.o: ../DefaultPoller.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zahngkaiming/code/netproject/muduomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/muduomy.dir/DefaultPoller.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/DefaultPoller.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/DefaultPoller.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/DefaultPoller.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/DefaultPoller.cpp
 
 CMakeFiles/muduomy.dir/DefaultPoller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduomy.dir/DefaultPoller.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/DefaultPoller.cpp > CMakeFiles/muduomy.dir/DefaultPoller.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/DefaultPoller.cpp > CMakeFiles/muduomy.dir/DefaultPoller.cpp.i
 
 CMakeFiles/muduomy.dir/DefaultPoller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduomy.dir/DefaultPoller.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/DefaultPoller.cpp -o CMakeFiles/muduomy.dir/DefaultPoller.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/DefaultPoller.cpp -o CMakeFiles/muduomy.dir/DefaultPoller.cpp.s
 
 CMakeFiles/muduomy.dir/EPollPoller.cpp.o: CMakeFiles/muduomy.dir/flags.make
 CMakeFiles/muduomy.dir/EPollPoller.cpp.o: ../EPollPoller.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zahngkaiming/code/netproject/muduomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/muduomy.dir/EPollPoller.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/EPollPoller.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/EPollPoller.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/EPollPoller.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/EPollPoller.cpp
 
 CMakeFiles/muduomy.dir/EPollPoller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduomy.dir/EPollPoller.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/EPollPoller.cpp > CMakeFiles/muduomy.dir/EPollPoller.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/EPollPoller.cpp > CMakeFiles/muduomy.dir/EPollPoller.cpp.i
 
 CMakeFiles/muduomy.dir/EPollPoller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduomy.dir/EPollPoller.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/EPollPoller.cpp -o CMakeFiles/muduomy.dir/EPollPoller.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/EPollPoller.cpp -o CMakeFiles/muduomy.dir/EPollPoller.cpp.s
 
 CMakeFiles/muduomy.dir/EventLoop.cpp.o: CMakeFiles/muduomy.dir/flags.make
 CMakeFiles/muduomy.dir/EventLoop.cpp.o: ../EventLoop.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zahngkaiming/code/netproject/muduomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/muduomy.dir/EventLoop.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/EventLoop.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/EventLoop.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/EventLoop.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/EventLoop.cpp
 
 CMakeFiles/muduomy.dir/EventLoop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduomy.dir/EventLoop.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/EventLoop.cpp > CMakeFiles/muduomy.dir/EventLoop.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/EventLoop.cpp > CMakeFiles/muduomy.dir/EventLoop.cpp.i
 
 CMakeFiles/muduomy.dir/EventLoop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduomy.dir/EventLoop.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/EventLoop.cpp -o CMakeFiles/muduomy.dir/EventLoop.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/EventLoop.cpp -o CMakeFiles/muduomy.dir/EventLoop.cpp.s
 
 CMakeFiles/muduomy.dir/EventLoopThread.cpp.o: CMakeFiles/muduomy.dir/flags.make
 CMakeFiles/muduomy.dir/EventLoopThread.cpp.o: ../EventLoopThread.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zahngkaiming/code/netproject/muduomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/muduomy.dir/EventLoopThread.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/EventLoopThread.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/EventLoopThread.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/EventLoopThread.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/EventLoopThread.cpp
 
 CMakeFiles/muduomy.dir/EventLoopThread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduomy.dir/EventLoopThread.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/EventLoopThread.cpp > CMakeFiles/muduomy.dir/EventLoopThread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/EventLoopThread.cpp > CMakeFiles/muduomy.dir/EventLoopThread.cpp.i
 
 CMakeFiles/muduomy.dir/EventLoopThread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduomy.dir/EventLoopThread.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/EventLoopThread.cpp -o CMakeFiles/muduomy.dir/EventLoopThread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/EventLoopThread.cpp -o CMakeFiles/muduomy.dir/EventLoopThread.cpp.s
 
 CMakeFiles/muduomy.dir/EventLoopThreadPool.cpp.o: CMakeFiles/muduomy.dir/flags.make
 CMakeFiles/muduomy.dir/EventLoopThreadPool.cpp.o: ../EventLoopThreadPool.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zahngkaiming/code/netproject/muduomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/muduomy.dir/EventLoopThreadPool.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/EventLoopThreadPool.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/EventLoopThreadPool.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/EventLoopThreadPool.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/EventLoopThreadPool.cpp
 
 CMakeFiles/muduomy.dir/EventLoopThreadPool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduomy.dir/EventLoopThreadPool.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/EventLoopThreadPool.cpp > CMakeFiles/muduomy.dir/EventLoopThreadPool.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/EventLoopThreadPool.cpp > CMakeFiles/muduomy.dir/EventLoopThreadPool.cpp.i
 
 CMakeFiles/muduomy.dir/EventLoopThreadPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduomy.dir/EventLoopThreadPool.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/EventLoopThreadPool.cpp -o CMakeFiles/muduomy.dir/EventLoopThreadPool.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/EventLoopThreadPool.cpp -o CMakeFiles/muduomy.dir/EventLoopThreadPool.cpp.s
 
 CMakeFiles/muduomy.dir/InetAddress.cpp.o: CMakeFiles/muduomy.dir/flags.make
 CMakeFiles/muduomy.dir/InetAddress.cpp.o: ../InetAddress.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zahngkaiming/code/netproject/muduomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/muduomy.dir/InetAddress.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/InetAddress.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/InetAddress.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/InetAddress.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/InetAddress.cpp
 
 CMakeFiles/muduomy.dir/InetAddress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduomy.dir/InetAddress.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/InetAddress.cpp > CMakeFiles/muduomy.dir/InetAddress.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/InetAddress.cpp > CMakeFiles/muduomy.dir/InetAddress.cpp.i
 
 CMakeFiles/muduomy.dir/InetAddress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduomy.dir/InetAddress.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/InetAddress.cpp -o CMakeFiles/muduomy.dir/InetAddress.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/InetAddress.cpp -o CMakeFiles/muduomy.dir/InetAddress.cpp.s
 
 CMakeFiles/muduomy.dir/Logger.cpp.o: CMakeFiles/muduomy.dir/flags.make
 CMakeFiles/muduomy.dir/Logger.cpp.o: ../Logger.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zahngkaiming/code/netproject/muduomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/muduomy.dir/Logger.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/Logger.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/Logger.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/Logger.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/Logger.cpp
 
 CMakeFiles/muduomy.dir/Logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduomy.dir/Logger.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/Logger.cpp > CMakeFiles/muduomy.dir/Logger.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/Logger.cpp > CMakeFiles/muduomy.dir/Logger.cpp.i
 
 CMakeFiles/muduomy.dir/Logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduomy.dir/Logger.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/Logger.cpp -o CMakeFiles/muduomy.dir/Logger.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/Logger.cpp -o CMakeFiles/muduomy.dir/Logger.cpp.s
 
 CMakeFiles/muduomy.dir/Poller.cpp.o: CMakeFiles/muduomy.dir/flags.make
 CMakeFiles/muduomy.dir/Poller.cpp.o: ../Poller.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zahngkaiming/code/netproject/muduomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/muduomy.dir/Poller.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/Poller.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/Poller.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/Poller.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/Poller.cpp
 
 CMakeFiles/muduomy.dir/Poller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduomy.dir/Poller.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/Poller.cpp > CMakeFiles/muduomy.dir/Poller.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/Poller.cpp > CMakeFiles/muduomy.dir/Poller.cpp.i
 
 CMakeFiles/muduomy.dir/Poller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduomy.dir/Poller.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/Poller.cpp -o CMakeFiles/muduomy.dir/Poller.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/Poller.cpp -o CMakeFiles/muduomy.dir/Poller.cpp.s
 
 CMakeFiles/muduomy.dir/Socket.cpp.o: CMakeFiles/muduomy.dir/flags.make
 CMakeFiles/muduomy.dir/Socket.cpp.o: ../Socket.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zahngkaiming/code/netproject/muduomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/muduomy.dir/Socket.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/Socket.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/Socket.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/Socket.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/Socket.cpp
 
 CMakeFiles/muduomy.dir/Socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduomy.dir/Socket.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/Socket.cpp > CMakeFiles/muduomy.dir/Socket.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/Socket.cpp > CMakeFiles/muduomy.dir/Socket.cpp.i
 
 CMakeFiles/muduomy.dir/Socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduomy.dir/Socket.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/Socket.cpp -o CMakeFiles/muduomy.dir/Socket.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/Socket.cpp -o CMakeFiles/muduomy.dir/Socket.cpp.s
 
 CMakeFiles/muduomy.dir/TcpConnection.cpp.o: CMakeFiles/muduomy.dir/flags.make
 CMakeFiles/muduomy.dir/TcpConnection.cpp.o: ../TcpConnection.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zahngkaiming/code/netproject/muduomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/muduomy.dir/TcpConnection.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/TcpConnection.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/TcpConnection.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/TcpConnection.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/TcpConnection.cpp
 
 CMakeFiles/muduomy.dir/TcpConnection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduomy.dir/TcpConnection.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/TcpConnection.cpp > CMakeFiles/muduomy.dir/TcpConnection.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/TcpConnection.cpp > CMakeFiles/muduomy.dir/TcpConnection.cpp.i
 
 CMakeFiles/muduomy.dir/TcpConnection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduomy.dir/TcpConnection.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/TcpConnection.cpp -o CMakeFiles/muduomy.dir/TcpConnection.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/TcpConnection.cpp -o CMakeFiles/muduomy.dir/TcpConnection.cpp.s
 
 CMakeFiles/muduomy.dir/TcpServer.cpp.o: CMakeFiles/muduomy.dir/flags.make
 CMakeFiles/muduomy.dir/TcpServer.cpp.o: ../TcpServer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zahngkaiming/code/netproject/muduomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/muduomy.dir/TcpServer.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/TcpServer.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/TcpServer.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/TcpServer.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/TcpServer.cpp
 
 CMakeFiles/muduomy.dir/TcpServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduomy.dir/TcpServer.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/TcpServer.cpp > CMakeFiles/muduomy.dir/TcpServer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/TcpServer.cpp > CMakeFiles/muduomy.dir/TcpServer.cpp.i
 
 CMakeFiles/muduomy.dir/TcpServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduomy.dir/TcpServer.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/TcpServer.cpp -o CMakeFiles/muduomy.dir/TcpServer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/TcpServer.cpp -o CMakeFiles/muduomy.dir/TcpServer.cpp.s
 
 CMakeFiles/muduomy.dir/Thread.cpp.o: CMakeFiles/muduomy.dir/flags.make
 CMakeFiles/muduomy.dir/Thread.cpp.o: ../Thread.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zahngkaiming/code/netproject/muduomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/muduomy.dir/Thread.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/Thread.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/Thread.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/Thread.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/Thread.cpp
 
 CMakeFiles/muduomy.dir/Thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduomy.dir/Thread.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/Thread.cpp > CMakeFiles/muduomy.dir/Thread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/Thread.cpp > CMakeFiles/muduomy.dir/Thread.cpp.i
 
 CMakeFiles/muduomy.dir/Thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduomy.dir/Thread.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/Thread.cpp -o CMakeFiles/muduomy.dir/Thread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/Thread.cpp -o CMakeFiles/muduomy.dir/Thread.cpp.s
 
 CMakeFiles/muduomy.dir/TimeStamp.cpp.o: CMakeFiles/muduomy.dir/flags.make
 CMakeFiles/muduomy.dir/TimeStamp.cpp.o: ../TimeStamp.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zahngkaiming/code/netproject/muduomy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/muduomy.dir/TimeStamp.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/TimeStamp.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/TimeStamp.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muduomy.dir/TimeStamp.cpp.o -c /home/zahngkaiming/code/netproject/muduomy/TimeStamp.cpp
 
 CMakeFiles/muduomy.dir/TimeStamp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muduomy.dir/TimeStamp.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/TimeStamp.cpp > CMakeFiles/muduomy.dir/TimeStamp.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zahngkaiming/code/netproject/muduomy/TimeStamp.cpp > CMakeFiles/muduomy.dir/TimeStamp.cpp.i
 
 CMakeFiles/muduomy.dir/TimeStamp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muduomy.dir/TimeStamp.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/TimeStamp.cpp -o CMakeFiles/muduomy.dir/TimeStamp.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zahngkaiming/code/netproject/muduomy/TimeStamp.cpp -o CMakeFiles/muduomy.dir/TimeStamp.cpp.s
 
 # Object files for target muduomy
 muduomy_OBJECTS = \

@@ -1,5 +1,5 @@
-#include "TcpServer.h"
-#include "Logger.h"
+#include <muduomy/TcpServer.h>
+#include <muduomy/Logger.h>
 
 #include <functional>
 #include <string>
@@ -32,7 +32,7 @@ private:
     {
         if(conn->connected())
         {
-            LOG_INFO("Connrction UP : %s", conn->peerAddr().toIpPort().c_str());
+            LOG_INFO("Connection UP : %s", conn->peerAddr().toIpPort().c_str());
         }
         else
         {
@@ -44,7 +44,7 @@ private:
     void onMessage(const TcpConnectionPtr &conn, Buffer *buf, TimeStamp time)
     {
         std::string msg = buf->retrieveAllAsString();
-        conn->send(mag);
+        conn->send(msg);
         conn->shutdown(); // 关闭写端  EPOLLHUP -> closeCallback 
     }
     EventLoop* loop_;
