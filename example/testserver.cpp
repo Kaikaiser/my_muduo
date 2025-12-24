@@ -17,7 +17,7 @@ public:
         server_.setMessageCallback(std::bind(&EchoServer::onMessage, this, std::placeholders::_1, 
             std::placeholders::_2, std::placeholders::_3));
 
-        // 设定线程数量  一般来说 线程数 = 核数
+        // 设定线程数量（不包括baseloop）  一般来说 线程数 = 核数
         server_.setThreadNum(3);  // 一个io（主）  三个worker（sub）
     }
 
