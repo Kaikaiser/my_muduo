@@ -7,7 +7,7 @@
 #include <cerrno>
 #include <unistd.h>
 
-
+// 创建非阻塞fd
 static int createNonblocking()
 {
     int sockfd = ::socket(AF_INET, SOCK_STREAM | SOCK_NONBLOCK | SOCK_CLOEXEC, 0);
@@ -21,7 +21,7 @@ static int createNonblocking()
 
 Acceptor::Acceptor(EventLoop *loop, const InetAddress &listenAddr, bool reuseport)
         : loop_(loop)
-        , acceptSocket_(createNonblocking())
+        , acceptSocket_(createNonblocking()) // 创建非阻塞fd
         , acceptChannel_(loop, acceptSocket_.fd())
         , listening_(false)
 {

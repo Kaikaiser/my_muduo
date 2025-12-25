@@ -28,6 +28,7 @@ public:
     }
 
 private:
+    // 连接建立或者断开的回调
     void onConnection(const TcpConnectionPtr &conn)
     {
         if(conn->connected())
